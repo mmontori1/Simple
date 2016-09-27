@@ -13,7 +13,8 @@ public class Ground : MonoBehaviour {
 		ground.GetComponent<BoxCollider2D> ();
 		rb.isKinematic = true;
 	}
-	
+
+
 	// Update is called once per frame
 	void Update () {
 	
