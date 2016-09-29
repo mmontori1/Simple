@@ -8,8 +8,7 @@
 
 \f0\b\fs24 \cf0 Unity Project Simple Notes
 \b0 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
+\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf0 \ul \ulc0 What to do next:\ulnone \
 -Enemy Collision with Player \
@@ -36,11 +35,10 @@ center for objects:\
 calling the object that is connected to the script:\
 -this.gameobject\
 \
-\pard\pardeftab720\partightenfactor0
-\cf2 ignore collision between game objects in a certain layer\
-\cf4 -Physics2D\cf2 .IgnoreLayerCollision(\cf4 LayerMask\cf2 .NameToLayer(\cf5 "Player"\cf2 ), \cf4 LayerMask\cf2 .NameToLayer(\cf5 "Enemy"\cf2 ), \cf3 true\cf2 );\uc0\u8232 \u8232 \cf2 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \
+ignore collision between game objects in a certain layer\
+\cf4 -Physics2D\cf2 .IgnoreLayerCollision(\cf4 LayerMask\cf2 .NameToLayer(\cf5 "Player"\cf2 ), \cf4 LayerMask\cf2 .NameToLayer(\cf5 "Enemy"\cf2 ), \cf3 true\cf2 );\uc0\u8232 \
+-moves a game object over to a position\uc0\u8232 \cf2 player.transform.Translate (\cf3 new\cf2  \cf4 Vector2\cf2  (\cf5 1f\cf2 , \cf5 1f\cf2 ));\uc0\u8232 \u8232 \cf2 \
+\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0 \cf0 \ul Old code:
@@ -50,7 +48,6 @@ calling the object that is connected to the script:\
 		\cf3 public\cf2  \cf3 float\cf2  raycastLength = \cf5 0f\cf2 ;\uc0\u8232 		\cf3 public\cf2  \cf3 int\cf2  layer = \cf5 0\cf2 ;\uc0\u8232 		\cf3 public\cf2  \cf3 float\cf2  minDepth = \cf4 Mathf\cf2 .Infinity;\uc0\u8232 		\cf3 public\cf2  \cf3 float\cf2  maxDepth = \cf4 Mathf\cf2 .Infinity;\uc0\u8232 \
 		\cf4 RaycastHit2D\cf2  hit = \cf4 Physics2D\cf2 .Raycast(transform.position, -\cf4 Vector2\cf2 .up);\uc0\u8232 		\cf4 RaycastHit2D\cf2  hit = \cf4 Physics2D\cf2 .Raycast(transform.position, \cf4 Vector2\cf2 .up, \cf6 raycastLength\cf2 , \cf6 layer\cf2 , \cf5 0\cf2 , \cf5 0\cf2 );\uc0\u8232 		\cf4 RaycastHit2D\cf2  hit = \cf4 Physics2D\cf2 .Raycast(transform.position, -\cf4 Vector2\cf2 .up);\uc0\u8232 		\cf3 if\cf2 (hit.collider == \cf3 null\cf2 ) \{\uc0\u8232 			walkSpeed = walkSpeed * -\cf5 1\cf2 ;\uc0\u8232 		\}\u8232 		\cf3 if\cf2 (hit.collider)\{\uc0\u8232 			\cf4 Debug\cf2 .Log (\cf5 "well?"\cf2 );\uc0\u8232 		\}\u8232 		\cf4 Debug\cf2 .DrawLine (transform.position, hit.point, \cf4 Color\cf2 .cyan);\uc0\u8232 \
 Working on Health C# Script:\
-\pard\pardeftab720\partightenfactor0
 \cf3 	for\cf2 (\cf3 int\cf2  i = \cf5 0\cf2 ; i < startingHealth; ++i)\{\uc0\u8232 
 \f2\i \cf7 	//			if(i == 0)\{\uc0\u8232 	//				health = new GameObject("Health" + i);\u8232 	//			\}\u8232 	//			healthBar[i] = new GameObject("Health" + i);\u8232 	//			healthBar[i].transform.parent = GameObject.Find("Health Bar").transform;\u8232 	//			else \{\u8232 
 \f1\i0 \cf2 				

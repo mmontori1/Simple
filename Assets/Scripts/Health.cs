@@ -38,7 +38,9 @@ public class Health : MonoBehaviour {
 				healthBar[i] = (GameObject) Instantiate (healthBar [i], new Vector3 (firstHeart.x - (i * 1.12918f), firstHeart.y, firstHeart.z), Quaternion.identity, GameObject.Find ("Health Bar").transform);
 			}
 			healthBar[i].name = "Health " + i;
-			healthBar[i] = Resources.Load ("Health Bar") as GameObject;
+//			healthBar[i] = Resources.Load ("Health Bar") as GameObject;
+//			Debug.Log (Resources.Load ("Health Bar") as GameObject);
+//			Debug.Log (Resources.Load ("Health Bar"));
 		}
 	}
 }

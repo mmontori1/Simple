@@ -7,6 +7,7 @@ public class Player : MonoBehaviour {
 	//Variables
 	private Rigidbody2D rb;
 	public BoxCollider2D collide;
+	public SpriteRenderer sprite;
 	public float walkSpeed = 4f;
 	public float accel = 1.5f;
 	public bool grounded;
@@ -14,9 +15,12 @@ public class Player : MonoBehaviour {
 	public LayerMask enemyLayer;
 	public Health health;
 	public GameObject player;
+	public Sprite crouch;
+	public Sprite stand;
 	public RedGuy enemy;
 	private float time = 0f;
 	bool enableMovement = true;
+	bool crouching = false;
 	//public class healthBar{
 //	public int health;
 	//}
@@ -24,15 +28,18 @@ public class Player : MonoBehaviour {
 	//Initialization
 	void Start () {
 		player = GameObject.Find("Player");
-		//Add and applies Rigidbody2D to our yellow box player
+		//Add and applies Rigidbody2D to our player
 		player.AddComponent<Rigidbody2D>();
 		rb = player.GetComponent<Rigidbody2D>();
 		rb.gravityScale = 2f;
 		rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-		//Add and applies BoxCollider2D to our yellow box player
+		//Add and applies BoxCollider2D to our player
 		player.AddComponent<BoxCollider2D>();
-		player.GetComponent<BoxCollider2D> ();
+		collide = player.GetComponent<BoxCollider2D> ();
 		rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y);
+
+		//Gets the sprite component
+		sprite = player.GetComponent<SpriteRenderer>();
 
 		GameObject healthBars = GameObject.Find("Health Bar");
 		health = healthBars.GetComponent<Health>();
@@ -41,6 +48,7 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update (){
 		movement();
+		crouchAction();
 //		StartCoroutine(invincibility());
 	}
 
@@ -84,10 +92,27 @@ public class Player : MonoBehaviour {
 			}
 			if(Input.GetKey("right")){
 				rb.velocity = new Vector2 (walkSpeed * accel, rb.velocity.y);
+				sprite.flipX = false;
 			}
 			if(Input.GetKey("left")){
 				rb.velocity = new Vector2 (-walkSpeed * accel, rb.velocity.y);
+				sprite.flipX = true;
 			}
+		}
+	}
+
+	void crouchAction(){
+		if(Input.GetKeyDown("down") && grounded && !crouching){
+			collide.size = new Vector2(collide.size.x, collide.size.y - 0.25f);
+			collide.offset = new Vector2(collide.offset.x, collide.offset.y - 0.125f);
+			sprite.sprite = crouch;
+			crouching = true;
+		}
+		else if(Input.GetKeyDown("down") && grounded && crouching) {
+			sprite.sprite = stand;
+			collide.size = new Vector2 (collide.size.x, collide.size.y + 0.25f);
+			collide.offset = new Vector2(collide.offset.x, collide.offset.y + 0.125f);
+			crouching = false;
 		}
 	}
 	bool rightFaced(){
