@@ -94,10 +94,10 @@ public class Player : MonoBehaviour {
 			if(Input.GetKeyDown("up") && grounded){
 				rb.velocity = new Vector2 (rb.velocity.x, 10);
 			}
-			if(Input.GetKey("left shift") && grounded){
+			if(Input.GetKey("left shift") && grounded && !crouching){
 				accel = 1.5f;
 			} 
-			if(!Input.GetKey("left shift") && grounded){
+			if(!Input.GetKey("left shift") && grounded && !crouching){
 				accel = 1f;
 			}
 			if(Input.GetKey("right")){
@@ -108,6 +108,9 @@ public class Player : MonoBehaviour {
 				rb.velocity = new Vector2 (-walkSpeed * accel, rb.velocity.y);
 				sprite.flipX = true;
 			}
+		}
+		if(crouching){
+			accel = 0.5f;
 		}
 	}
 
@@ -124,7 +127,17 @@ public class Player : MonoBehaviour {
 			collide.offset = new Vector2(collide.offset.x, collide.offset.y + 0.125f);
 			crouching = false;
 		}
+		if(!grounded && crouching){
+			sprite.sprite = stand;
+			collide.size = new Vector2 (collide.size.x, collide.size.y + 0.25f);
+			collide.offset = new Vector2(collide.offset.x, collide.offset.y + 0.125f);
+			crouching = false;
+		}
+		if(Input.GetKeyDown ("up") && grounded && crouching){
+			rb.velocity = new Vector2 (rb.velocity.x, 15);
+		}
 	}
+
 	bool rightFaced(){
 		bool right = true;
 		if(rb.velocity.x > 0){
