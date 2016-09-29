@@ -10,6 +10,7 @@ public class Player : MonoBehaviour {
 	public SpriteRenderer sprite;
 	public float walkSpeed = 4f;
 	public float accel = 1.5f;
+	int amountFloors = 0;
 	public bool grounded;
 	public bool invincible = false;
 	public LayerMask enemyLayer;
@@ -18,7 +19,6 @@ public class Player : MonoBehaviour {
 	public Sprite crouch;
 	public Sprite stand;
 	public RedGuy enemy;
-	private float time = 0f;
 	bool enableMovement = true;
 	bool crouching = false;
 	//public class healthBar{
@@ -54,7 +54,9 @@ public class Player : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D coll){
 		if(coll.gameObject.tag == "floor"){
+			amountFloors += 1;
 			grounded = true;
+			Debug.Log (amountFloors);
 		}
 
 		if(coll.gameObject.tag == "enemy" && !invincible){
@@ -76,7 +78,15 @@ public class Player : MonoBehaviour {
 		
 	void OnCollisionExit2D (Collision2D coll){
 		if(coll.gameObject.tag == "floor"){
-			grounded = false;
+			if(amountFloors == 1){
+				amountFloors -= 1;
+				grounded = false;
+				Debug.Log (amountFloors);
+			} 
+			else if(amountFloors > 1){
+				amountFloors -= 1;
+				Debug.Log (amountFloors);
+			}
 		}
 	}
 	void movement(){
