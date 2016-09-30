@@ -13,7 +13,7 @@ public class RedGuy : MonoBehaviour {
 	public LayerMask groundLayer;
 	public LayerMask playerLayer;
 	public bool rightDirection;
-	public bool isAbove = false;
+	public bool isAbove;
 	public float enemyHeight;
 	// Use this for initialization
 	void Start () {
@@ -59,9 +59,15 @@ public class RedGuy : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D (Collision2D collision){
-		if(collision.gameObject.tag == "player"){
+		if (collision.gameObject.tag == "player") {
 			isAbove = aboveCheck();
 			Debug.Log (isAbove);
+		}
+	}
+
+	void OnCollisionExit2D (Collision2D collision){
+		if (collision.gameObject.tag == "player") {
+			isAbove = aboveCheck();
 		}
 	}
 
@@ -91,14 +97,14 @@ public class RedGuy : MonoBehaviour {
 
 	bool aboveCheck(){
 		Vector2 position = transform.position;
-		float distanceAbove = 0.8f;
-		float distanceSides = 0.75f;
-		Debug.DrawRay(position, new Vector2(0,0.8f), Color.green);
-		RaycastHit2D hitAbove = Physics2D.Raycast(position, new Vector2(0,0.8f), distanceAbove, playerLayer);
-		Debug.DrawRay(position, new Vector2(-0.45f,0.6f), Color.green);
-		RaycastHit2D hitLeft = Physics2D.Raycast(position, new Vector2(-0.45f,0.6f), distanceSides, playerLayer);
-		Debug.DrawRay(position, new Vector2(0.45f,0.6f), Color.green);
-		RaycastHit2D hitRight = Physics2D.Raycast(position, new Vector2(0.45f,0.6f), distanceSides, playerLayer);
+		float distanceAbove = 0.7f;
+		float distanceSides = 0.8321f;
+		Debug.DrawRay(position, new Vector2(0,0.7f), Color.green);
+		RaycastHit2D hitAbove = Physics2D.Raycast(position, new Vector2(0,0.7f), distanceAbove, playerLayer);
+		Debug.DrawRay(position, new Vector2(-0.45f,0.7f), Color.green);
+		RaycastHit2D hitLeft = Physics2D.Raycast(position, new Vector2(-0.45f,0.7f), distanceSides, playerLayer);
+		Debug.DrawRay(position, new Vector2(0.45f,0.7f), Color.green);
+		RaycastHit2D hitRight = Physics2D.Raycast(position, new Vector2(0.45f,0.7f), distanceSides, playerLayer);
 		if (hitAbove.collider != null || hitLeft.collider != null || hitRight.collider != null) {
 			return true;
 		}

@@ -13,6 +13,7 @@ public class Player : MonoBehaviour {
 	int amountFloors = 0;
 	public bool grounded;
 	public bool invincible = false;
+	public bool isAbove;
 	public LayerMask enemyLayer;
 	public Health health;
 	public GameObject player;
@@ -56,7 +57,20 @@ public class Player : MonoBehaviour {
 //			Debug.Log (amountFloors);
 		}
 
-		if(coll.gameObject.tag == "enemy" && !invincible){
+		if(coll.gameObject.tag == "enemy" && !invincible){;
+//			Debug.Log(((RedGuy) coll.gameObject.GetComponent(typeof(RedGuy))).isAbove);
+//			Debug.Log(enemy.isAbove);
+			if(((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))).isAbove){
+//				Debug.Log ("wow");
+				Destroy (coll.gameObject);
+			} 
+			else{
+				health.currentHealth = health.currentHealth - 1;
+				if(health.currentHealth == 0){
+					Destroy(GameObject.Find("Player"));
+				}
+			}
+//			enemy = null;
 //			Debug.Log (coll);
 
 //			Debug.Log (coll.contacts [0].point.y);
@@ -67,10 +81,7 @@ public class Player : MonoBehaviour {
 //			if(coll.contacts[0].point.y + collide.size.y){
 //				Destroy(coll.gameObject);
 //			}
-//			health.currentHealth = health.currentHealth - 1;
-//			if(health.currentHealth == 0){
-//				Destroy(GameObject.Find("Player"));
-//			}
+//			
 
 
 //			if(!enemy.rightDirection){
@@ -165,7 +176,7 @@ public class Player : MonoBehaviour {
 		}
 	}
 
-	float enemyHeight(){
-		return enemy.enemyHeight;
-	}
+//	float enemyHeight(){
+//		return enemy.enemyHeight;
+//	}
 }
