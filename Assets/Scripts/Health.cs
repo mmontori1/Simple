@@ -1,8 +1,8 @@
-﻿#if UNITY_EDITOR
+﻿//#if UNITY_EDITOR
 
 using UnityEngine;
 using System.Collections;
-using UnityEditor;
+//using UnityEditor;
 
 public class Health : MonoBehaviour {
 
@@ -47,4 +47,4 @@ public class Health : MonoBehaviour {
 	}
 }
 
-#endif
+//#endif

@@ -1,9 +1,9 @@
-﻿#if UNITY_EDITOR
+﻿//#if UNITY_EDITOR
 
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-using UnityEditor;
+//using UnityEditor;
 
 public class Player : MonoBehaviour {
 
@@ -65,6 +65,7 @@ public class Player : MonoBehaviour {
 //			Debug.Log(enemy.isAbove);
 			if(((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))).isAbove){
 //				Debug.Log ("wow");
+				Debug.Log (coll.gameObject);
 				Destroy (coll.gameObject);
 			} 
 			else{
@@ -184,4 +185,4 @@ public class Player : MonoBehaviour {
 //	}
 }
 
-#endif
+//#endif
