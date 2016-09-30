@@ -21,9 +21,6 @@ public class Player : MonoBehaviour {
 	public RedGuy enemy;
 	bool enableMovement = true;
 	bool crouching = false;
-	//public class healthBar{
-//	public int health;
-	//}
 
 	//Initialization
 	void Start () {
@@ -56,14 +53,26 @@ public class Player : MonoBehaviour {
 		if(coll.gameObject.tag == "floor"){
 			amountFloors += 1;
 			grounded = true;
-			Debug.Log (amountFloors);
+//			Debug.Log (amountFloors);
 		}
 
 		if(coll.gameObject.tag == "enemy" && !invincible){
-			health.currentHealth = health.currentHealth - 1;
-			if(health.currentHealth == 0){
-				Destroy(GameObject.Find("Player"));
-			}
+//			Debug.Log (coll);
+
+//			Debug.Log (coll.contacts [0].point.y);
+//			Debug.Log (collide.offset.y - (collide.size.y / 2));
+//			Debug.Log (player.transform.position.y);
+//			Debug.Log (coll.contacts [0].point.y + (collide.size.y / 2));
+//			Debug.Log (coll.gameObject.transform.position.y + collide.size.y + enemy.enemyHeight);
+//			if(coll.contacts[0].point.y + collide.size.y){
+//				Destroy(coll.gameObject);
+//			}
+//			health.currentHealth = health.currentHealth - 1;
+//			if(health.currentHealth == 0){
+//				Destroy(GameObject.Find("Player"));
+//			}
+
+
 //			if(!enemy.rightDirection){
 //				rb.velocity = new Vector2 (-3, 3);
 //				rb.AddForce (new Vector2 (-3, 3), ForceMode2D.Impulse);
@@ -81,11 +90,11 @@ public class Player : MonoBehaviour {
 			if(amountFloors == 1){
 				amountFloors -= 1;
 				grounded = false;
-				Debug.Log (amountFloors);
+//				Debug.Log (amountFloors);
 			} 
 			else if(amountFloors > 1){
 				amountFloors -= 1;
-				Debug.Log (amountFloors);
+//				Debug.Log (amountFloors);
 			}
 		}
 	}
@@ -154,5 +163,9 @@ public class Player : MonoBehaviour {
 			yield return new WaitForSeconds(4);
 			invincible = false;
 		}
+	}
+
+	float enemyHeight(){
+		return enemy.enemyHeight;
 	}
 }

@@ -4,14 +4,17 @@ using System.Collections;
 public class RedGuy : MonoBehaviour {
 	public GameObject enemy;
 	private Rigidbody2D rb;
-	private BoxCollider2D collide;
+	public BoxCollider2D collide;
 	public Collider2D coll;
 	public float walkSpeed = 2f;
 	public Vector2 speed;
 	public Vector2 direction = new Vector2 (1,-1);
 	public int facing = -1;
 	public LayerMask groundLayer;
+	public LayerMask playerLayer;
 	public bool rightDirection;
+	public bool isAbove = false;
+	public float enemyHeight;
 	// Use this for initialization
 	void Start () {
 		enemy = this.gameObject;
@@ -30,6 +33,8 @@ public class RedGuy : MonoBehaviour {
 		material.friction = 0;
 		material.bounciness = 0;
 		coll.sharedMaterial = material;
+
+		enemyHeight = collide.size.y;
 	}
 
 	// Update is called once per frame
@@ -49,6 +54,14 @@ public class RedGuy : MonoBehaviour {
 		if(edgeCheck() && !fallCheck()){
 			walkSpeed = walkSpeed * facing;
 			direction = new Vector2(direction.x * facing, direction.y);
+		}
+		aboveCheck();
+	}
+
+	void OnCollisionEnter2D (Collision2D collision){
+		if(collision.gameObject.tag == "player"){
+			isAbove = aboveCheck();
+			Debug.Log (isAbove);
 		}
 	}
 
@@ -70,6 +83,23 @@ public class RedGuy : MonoBehaviour {
 		Debug.DrawRay(position, new Vector2(0,-0.7f), Color.green);
 		RaycastHit2D hit = Physics2D.Raycast(position, new Vector2(0,-0.7f), distance, groundLayer);
 		if (hit.collider != null) {
+			return true;
+		}
+
+		return false;
+	}
+
+	bool aboveCheck(){
+		Vector2 position = transform.position;
+		float distanceAbove = 0.8f;
+		float distanceSides = 0.75f;
+		Debug.DrawRay(position, new Vector2(0,0.8f), Color.green);
+		RaycastHit2D hitAbove = Physics2D.Raycast(position, new Vector2(0,0.8f), distanceAbove, playerLayer);
+		Debug.DrawRay(position, new Vector2(-0.45f,0.6f), Color.green);
+		RaycastHit2D hitLeft = Physics2D.Raycast(position, new Vector2(-0.45f,0.6f), distanceSides, playerLayer);
+		Debug.DrawRay(position, new Vector2(0.45f,0.6f), Color.green);
+		RaycastHit2D hitRight = Physics2D.Raycast(position, new Vector2(0.45f,0.6f), distanceSides, playerLayer);
+		if (hitAbove.collider != null || hitLeft.collider != null || hitRight.collider != null) {
 			return true;
 		}
 
