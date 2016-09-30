@@ -1,6 +1,9 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEditor;
 
 public class Player : MonoBehaviour {
 
@@ -180,3 +183,5 @@ public class Player : MonoBehaviour {
 //		return enemy.enemyHeight;
 //	}
 }
+
+#endif
