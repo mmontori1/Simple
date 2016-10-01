@@ -55,21 +55,21 @@ public class RedGuy : MonoBehaviour {
 			walkSpeed = walkSpeed * facing;
 			direction = new Vector2(direction.x * facing, direction.y);
 		}
-		aboveCheck();
+		isAbove = aboveCheck();
 	}
 
-	void OnCollisionEnter2D (Collision2D collision){
-		if (collision.gameObject.tag == "player") {
-			isAbove = aboveCheck();
-			Debug.Log (isAbove);
-		}
-	}
-
-	void OnCollisionExit2D (Collision2D collision){
-		if (collision.gameObject.tag == "player") {
-			isAbove = aboveCheck();
-		}
-	}
+//	void OnCollisionEnter2D (Collision2D collision){
+//		if (collision.gameObject.tag == "player") {
+//			isAbove = aboveCheck();
+//			Debug.Log (isAbove);
+//		}
+//	}
+//
+//	void OnCollisionExit2D (Collision2D collision){
+//		if (collision.gameObject.tag == "player") {
+//			isAbove = aboveCheck();
+//		}
+//	}
 
 	bool edgeCheck() {
 		Vector2 position = transform.position;

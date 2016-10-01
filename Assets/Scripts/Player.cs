@@ -57,12 +57,15 @@ public class Player : MonoBehaviour {
 		if(coll.gameObject.tag == "floor"){
 			amountFloors += 1;
 			grounded = true;
-//			Debug.Log (amountFloors);
+			Debug.Log (amountFloors);
 		}
 
 		if(coll.gameObject.tag == "enemy" && !invincible){;
 //			Debug.Log(((RedGuy) coll.gameObject.GetComponent(typeof(RedGuy))).isAbove);
 //			Debug.Log(enemy.isAbove);
+			Debug.Log((coll.gameObject));
+			Debug.Log (((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))));
+			Debug.Log (((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))).isAbove);
 			if(((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))).isAbove){
 //				Debug.Log ("wow");
 				Debug.Log (coll.gameObject);
