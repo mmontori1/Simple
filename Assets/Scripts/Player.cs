@@ -57,7 +57,15 @@ public class Player : MonoBehaviour {
 		if(coll.gameObject.tag == "floor"){
 			amountFloors += 1;
 			grounded = true;
-			Debug.Log (amountFloors);
+//			Debug.Log (amountFloors);
+		}
+
+		if(coll.gameObject.tag == "water"){
+			Debug.Log (coll.gameObject.GetComponent<BoxCollider2D>(), collide);
+			Physics2D.IgnoreCollision (coll.gameObject.GetComponent<BoxCollider2D>(), collide);
+//			rb.AddForce (new Vector2(0,10), ForceMode2D.Force)
+//			ConstantForce2D GetComponent, change enabled on and off 
+			Debug.Log ("wow");
 		}
 
 		if(coll.gameObject.tag == "enemy" && !invincible){;
@@ -114,6 +122,10 @@ public class Player : MonoBehaviour {
 				amountFloors -= 1;
 //				Debug.Log (amountFloors);
 			}
+		}
+
+		if(coll.gameObject.tag == "water"){
+			rb.gravityScale = 2f;
 		}
 	}
 	void movement(){
