@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
 	private Rigidbody2D rb;
 	public BoxCollider2D collide;
 	public SpriteRenderer sprite;
+	public ConstantForce2D gravityForce;
 	public float walkSpeed = 4f;
 	public float accel = 1.5f;
 	int amountFloors = 0;
@@ -39,6 +40,10 @@ public class Player : MonoBehaviour {
 		collide = player.GetComponent<BoxCollider2D> ();
 		rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y);
 
+		player.AddComponent<ConstantForce2D>();
+		gravityForce = player.GetComponent<ConstantForce2D>();
+		gravityForce.enabled = false;
+
 		//Gets the sprite component
 		sprite = player.GetComponent<SpriteRenderer>();
 
@@ -50,6 +55,7 @@ public class Player : MonoBehaviour {
 	void Update (){
 		movement();
 		crouchAction();
+		gravityForce.force = new Vector2(0, 10f);
 //		StartCoroutine(invincibility());
 	}
 
@@ -61,11 +67,12 @@ public class Player : MonoBehaviour {
 		}
 
 		if(coll.gameObject.tag == "water"){
-			Debug.Log (coll.gameObject.GetComponent<BoxCollider2D>(), collide);
-			Physics2D.IgnoreCollision (coll.gameObject.GetComponent<BoxCollider2D>(), collide);
+//			Debug.Log (coll.gameObject.GetComponent<BoxCollider2D>(), collide);
+//			Physics2D.IgnoreCollision (coll.gameObject.GetComponent<BoxCollider2D>(), collide);
+//			gravityForce.enabled = false;
 //			rb.AddForce (new Vector2(0,10), ForceMode2D.Force)
 //			ConstantForce2D GetComponent, change enabled on and off 
-			Debug.Log ("wow");
+//			Debug.Log ("wow");
 		}
 
 		if(coll.gameObject.tag == "enemy" && !invincible){;
@@ -111,6 +118,16 @@ public class Player : MonoBehaviour {
 		}
 	}
 		
+	void OnTriggerEnter2D(Collider2D other){
+		gravityForce.enabled = true;
+		Debug.Log ("its in");
+	}
+
+	void OnTriggerExit2D(Collider2D other){
+		gravityForce.enabled = false;
+		Debug.Log ("its out");
+	}
+
 	void OnCollisionExit2D (Collision2D coll){
 		if(coll.gameObject.tag == "floor"){
 			if(amountFloors == 1){
@@ -125,7 +142,8 @@ public class Player : MonoBehaviour {
 		}
 
 		if(coll.gameObject.tag == "water"){
-			rb.gravityScale = 2f;
+			Debug.Log ("huh");
+			gravityForce.enabled = true;
 		}
 	}
 	void movement(){
