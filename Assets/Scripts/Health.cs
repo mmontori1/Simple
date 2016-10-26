@@ -18,6 +18,7 @@ public class Health : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+//		player = this.player;
 		healthBar = new GameObject[startingHealth];
 		currentHealth = startingHealth;
 		createHealth();
@@ -27,7 +28,7 @@ public class Health : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(currentHealth < k){
-			Debug.Log ("Health " + (k - 1));
+//			Debug.Log ("Health " + (k - 1));
 			Destroy (GameObject.Find("Health " + (k - 1)));
 			k = k - 1;
 		}

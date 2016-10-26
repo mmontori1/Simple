@@ -16,7 +16,7 @@ public class Player : MonoBehaviour {
 	public float accel = 1.5f;
 	int amountFloors = 0;
 	public bool grounded;
-	public bool invincible = false;
+//	public bool invincible = false;
 	public bool isAbove;
 	public LayerMask enemyLayer;
 	public Health health;
@@ -75,15 +75,16 @@ public class Player : MonoBehaviour {
 //			Debug.Log ("wow");
 		}
 
-		if(coll.gameObject.tag == "enemy" && !invincible){;
+//		if(coll.gameObject.tag == "enemy" && !invincible){
+		if(coll.gameObject.tag == "enemy"){
 //			Debug.Log(((RedGuy) coll.gameObject.GetComponent(typeof(RedGuy))).isAbove);
 //			Debug.Log(enemy.isAbove);
-			Debug.Log((coll.gameObject));
-			Debug.Log (((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))));
-			Debug.Log (((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))).isAbove);
+//			Debug.Log((coll.gameObject));
+//			Debug.Log (((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))));
+//			Debug.Log (((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))).isAbove);
 			if(((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))).isAbove){
 //				Debug.Log ("wow");
-				Debug.Log (coll.gameObject);
+//				Debug.Log (coll.gameObject);
 				Destroy (coll.gameObject);
 			} 
 			else{
@@ -206,12 +207,12 @@ public class Player : MonoBehaviour {
 		return right;
 	}
 
-	IEnumerator invincibility(){
-		if(invincible){
-			yield return new WaitForSeconds(4);
-			invincible = false;
-		}
-	}
+//	IEnumerator invincibility(){
+//		if(invincible){
+//			yield return new WaitForSeconds(4);
+//			invincible = false;
+//		}
+//	}
 
 //	float enemyHeight(){
 //		return enemy.enemyHeight;

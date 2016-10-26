@@ -47,6 +47,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Ground.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\Player States\IPlayerState.cs" />
+     <Compile Include="Assets\Scripts\Player States\InvincibleState.cs" />
+     <Compile Include="Assets\Scripts\Player States\StatePatternPlayer.cs" />
+     <Compile Include="Assets\Scripts\Player States\VulnerableState.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\RedGuy.cs" />
      <Compile Include="Assets\Scripts\Water.cs" />
