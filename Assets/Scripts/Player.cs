@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
 	private Rigidbody2D rb;
 	public BoxCollider2D collide;
 	public SpriteRenderer sprite;
+	public StatePatternPlayer statePattern;
 	public ConstantForce2D gravityForce;
 	public float walkSpeed = 4f;
 	public float accel = 1.5f;
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour {
 	public Health health;
 	public GameObject player;
 	public Sprite crouch;
+	public Sprite hurt;
 	public Sprite stand;
 	public RedGuy enemy;
 	bool enableMovement = true;
@@ -44,6 +46,8 @@ public class Player : MonoBehaviour {
 		gravityForce = player.GetComponent<ConstantForce2D>();
 		gravityForce.enabled = false;
 
+		statePattern = player.GetComponent<StatePatternPlayer>();
+
 		//Gets the sprite component
 		sprite = player.GetComponent<SpriteRenderer>();
 
@@ -56,6 +60,12 @@ public class Player : MonoBehaviour {
 		movement();
 		crouchAction();
 		gravityForce.force = new Vector2(0, 10f);
+
+		//DONT UPDATE MULTIPLE TIMES!!! CHANGE
+		if(statePattern.once){
+			sprite.sprite = hurt;
+		}
+
 //		StartCoroutine(invincibility());
 	}
 
@@ -87,12 +97,16 @@ public class Player : MonoBehaviour {
 //				Debug.Log (coll.gameObject);
 				Destroy (coll.gameObject);
 			} 
-			else{
-				health.currentHealth = health.currentHealth - 1;
-				if(health.currentHealth == 0){
-					Destroy(GameObject.Find("Player"));
-				}
-			}
+
+
+//			else{
+//				health.currentHealth = health.currentHealth - 1;
+//				if(health.currentHealth == 0){
+//					Destroy(GameObject.Find("Player"));
+//				}
+//			}
+
+
 //			enemy = null;
 //			Debug.Log (coll);
 

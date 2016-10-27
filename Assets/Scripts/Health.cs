@@ -7,17 +7,22 @@ using System.Collections;
 public class Health : MonoBehaviour {
 
 	public Player player;
-
-	public static int startingHealth = 5;
+	public StatePatternPlayer statePattern;
+//	public static int startingHealth = 5;
+	public int startingHealth;
 	public int currentHealth;
 	public Vector3 firstHeart = new Vector3 (9.65f, 6.23f, 1f);
 	public SpriteRenderer sprite;
 	public GameObject health;
-	public int k = startingHealth;
+	public int k; // = startingHealth;
 	GameObject[] healthBar;
 
 	// Use this for initialization
 	void Start () {
+		GameObject playerObject = GameObject.Find("Player");
+		statePattern = playerObject.GetComponent<StatePatternPlayer>();
+		startingHealth = statePattern.health;
+		k = startingHealth;
 //		player = this.player;
 		healthBar = new GameObject[startingHealth];
 		currentHealth = startingHealth;
@@ -27,11 +32,7 @@ public class Health : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(currentHealth < k){
-//			Debug.Log ("Health " + (k - 1));
-			Destroy (GameObject.Find("Health " + (k - 1)));
-			k = k - 1;
-		}
+		updateHealth();
 	}
 
 	void createHealth(){
@@ -44,6 +45,18 @@ public class Health : MonoBehaviour {
 //			healthBar[i] = Resources.Load ("Health Bar") as GameObject;
 //			Debug.Log (Resources.Load ("Health Bar") as GameObject);
 //			Debug.Log (Resources.Load ("Health Bar"));
+		}
+	}
+
+	void updateHealth(){
+		currentHealth = statePattern.health;
+		if(currentHealth < k){
+			//			Debug.Log ("Health " + (k - 1));
+			Destroy (GameObject.Find("Health " + (k - 1)));
+			k = k - 1;
+		}
+		if(currentHealth == 0){
+			Destroy(GameObject.Find("Player"));
 		}
 	}
 }

@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Player States\StatePatternPlayer.cs" />
      <Compile Include="Assets\Scripts\Player States\VulnerableState.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
      <Compile Include="Assets\Scripts\RedGuy.cs" />
      <Compile Include="Assets\Scripts\Water.cs" />
  <Reference Include="UnityEngine.Networking">

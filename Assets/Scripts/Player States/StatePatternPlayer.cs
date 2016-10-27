@@ -6,6 +6,7 @@ public class StatePatternPlayer : MonoBehaviour {
 //	public bool isVulnerable;
 	public int health;
 	public bool invincible;
+	public bool once;
 //	public bool 
 
 	[HideInInspector] public IPlayerState currentState;
@@ -30,11 +31,13 @@ public class StatePatternPlayer : MonoBehaviour {
 		currentState = vulnerableState;
 		health = 5;
 		invincible = false;
+		once = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(currentState == invincibleState){
+		if(once){
+			once = false;
 			StartCoroutine (invincibleT());
 			currentState.UpdateState();
 		}

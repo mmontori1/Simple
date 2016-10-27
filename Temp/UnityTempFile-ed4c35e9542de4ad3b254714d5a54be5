@@ -94,6 +94,7 @@
 'Assets/Scripts/Player States/StatePatternPlayer.cs'
 'Assets/Scripts/Player States/VulnerableState.cs'
 'Assets/Scripts/Player.cs'
+'Assets/Scripts/PlayerSpawner.cs'
 'Assets/Scripts/RedGuy.cs'
 'Assets/Scripts/Water.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'

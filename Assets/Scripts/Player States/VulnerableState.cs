@@ -23,6 +23,7 @@ public class VulnerableState : IPlayerState {
 			else {
 				player.health = player.health - 1;
 				player.invincible = true;
+				player.once = true;
 				if(player.health == 0){
 //					Destroy(GameObject.Find("Player"));
 				}
