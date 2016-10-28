@@ -28,6 +28,7 @@ public class Player : MonoBehaviour {
 	public RedGuy enemy;
 	bool enableMovement = true;
 	bool crouching = false;
+	public bool isRedHurt = false;
 
 	//Initialization
 	void Start () {
@@ -60,12 +61,12 @@ public class Player : MonoBehaviour {
 		movement();
 		crouchAction();
 		gravityForce.force = new Vector2(0, 10f);
-
+		flashHurt();
 		//DONT UPDATE MULTIPLE TIMES!!! CHANGE
-		if(statePattern.once){
-			sprite.sprite = hurt;
-		}
-
+//		if(statePattern.once){
+//			sprite.sprite = hurt;
+//		}
+		
 //		StartCoroutine(invincibility());
 	}
 
@@ -221,6 +222,51 @@ public class Player : MonoBehaviour {
 		return right;
 	}
 
+	void flashHurt(){
+		if(statePattern.invincible){
+			if(isRedHurt){
+				StartCoroutine(flashYellow());
+			}
+			else if(!isRedHurt){
+				StartCoroutine(flashRed());
+			}
+		} else {
+			sprite.color = new Color (241f, 255f, 0f, 255f);
+		}
+	}
+
+//	void flashRed(){
+////		Debug.Log (sprite.color);
+////		sprite.color = Color.red;
+////		StartCoroutine(flashTimer());
+//		if(isRedHurt){
+//			Debug.Log ("turn not red");
+//			sprite.color = new Color (241f, 255f, 0f, 255f);
+//			StartCoroutine(flashTimer());
+//			isRedHurt = false;
+//		}
+//		else if(!isRedHurt){
+//			Debug.Log ("turn red");
+//			sprite.color = Color.red;
+//			StartCoroutine(flashTimer());
+//			isRedHurt = true;
+//		}
+////		Debug.Log (sprite.color);
+//	}
+
+	private IEnumerator flashRed(){
+		Debug.Log ("flash red");
+		sprite.color = Color.red;
+		yield return new WaitForSeconds(0.2f);
+		isRedHurt = true;
+	}
+
+	private IEnumerator flashYellow(){
+		Debug.Log ("flash yellow");
+		sprite.color = new Color (241f, 255f, 0f, 255f);
+		yield return new WaitForSeconds(0.2f);
+		isRedHurt = false;
+	}
 //	IEnumerator invincibility(){
 //		if(invincible){
 //			yield return new WaitForSeconds(4);
