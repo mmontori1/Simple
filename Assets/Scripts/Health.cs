@@ -59,6 +59,14 @@ public class Health : MonoBehaviour {
 			Destroy(GameObject.Find("Player"));
 		}
 	}
+
+	void restartHealth(){
+		startingHealth = statePattern.health;
+		k = startingHealth;
+		healthBar = new GameObject[startingHealth];
+		currentHealth = startingHealth;
+		createHealth();
+	}
 }
 
 //#endif

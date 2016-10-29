@@ -32,7 +32,9 @@ public class Player : MonoBehaviour {
 
 	//Initialization
 	void Start () {
-		player = GameObject.Find("Player");
+		player = this.gameObject;
+		this.name = "Player";
+//		player = GameObject.Find("Player");
 		//Add and applies Rigidbody2D to our player
 		player.AddComponent<Rigidbody2D>();
 		rb = player.GetComponent<Rigidbody2D>();
@@ -60,7 +62,7 @@ public class Player : MonoBehaviour {
 	void Update (){
 		movement();
 		crouchAction();
-		gravityForce.force = new Vector2(0, 10f);
+//		gravityForce.force = new Vector2(0, 10f);
 		flashHurt();
 		//DONT UPDATE MULTIPLE TIMES!!! CHANGE
 //		if(statePattern.once){
