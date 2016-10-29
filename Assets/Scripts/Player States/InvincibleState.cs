@@ -23,7 +23,7 @@ public class InvincibleState : IPlayerState  {
 	}
 
 	public void OnCollisionEnter2D (Collision2D coll){
-		Debug.Log ("AM COLLIDE DURING INVINCI");
+//		Debug.Log ("AM COLLIDE DURING INVINCI");
 //		if(coll.gameObject.tag == "enemy"){
 //			if(((RedGuy)coll.gameObject.GetComponent (typeof(RedGuy))).isAbove){
 ////				Destroy(coll.gameObject);

@@ -34,7 +34,6 @@ public class Player : MonoBehaviour {
 	void Start () {
 		player = this.gameObject;
 		this.name = "Player";
-//		player = GameObject.Find("Player");
 		//Add and applies Rigidbody2D to our player
 		player.AddComponent<Rigidbody2D>();
 		rb = player.GetComponent<Rigidbody2D>();
@@ -56,20 +55,13 @@ public class Player : MonoBehaviour {
 
 		GameObject healthBars = GameObject.Find("Health Bar");
 		health = healthBars.GetComponent<Health>();
-//		StartCoroutine(invincibility());
 	}
 	// Update is called once per frame
 	void Update (){
 		movement();
 		crouchAction();
-//		gravityForce.force = new Vector2(0, 10f);
+		gravityForce.force = new Vector2(0, 10f);
 		flashHurt();
-		//DONT UPDATE MULTIPLE TIMES!!! CHANGE
-//		if(statePattern.once){
-//			sprite.sprite = hurt;
-//		}
-		
-//		StartCoroutine(invincibility());
 	}
 
 	void OnCollisionEnter2D (Collision2D coll){
@@ -257,14 +249,14 @@ public class Player : MonoBehaviour {
 //	}
 
 	private IEnumerator flashRed(){
-		Debug.Log ("flash red");
+//		Debug.Log ("flash red");
 		sprite.color = Color.red;
 		yield return new WaitForSeconds(0.2f);
 		isRedHurt = true;
 	}
 
 	private IEnumerator flashYellow(){
-		Debug.Log ("flash yellow");
+//		Debug.Log ("flash yellow");
 		sprite.color = new Color (241f, 255f, 0f, 255f);
 		yield return new WaitForSeconds(0.2f);
 		isRedHurt = false;

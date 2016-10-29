@@ -3,11 +3,9 @@ using System.Collections;
 
 public class StatePatternPlayer : MonoBehaviour {
 
-//	public bool isVulnerable;
 	public int health;
 	public bool invincible;
 	public bool once;
-//	public bool 
 
 	[HideInInspector] public IPlayerState currentState;
 	[HideInInspector] public InvincibleState invincibleState;
@@ -16,14 +14,6 @@ public class StatePatternPlayer : MonoBehaviour {
 	private void Awake(){
 		invincibleState = new InvincibleState (this);
 		vulnerableState = new VulnerableState (this);
-		//		GetComponent<InvincibleState>();
-		//		GetComponent<VulnerableState>();
-		//		gameObject.AddComponent ( typeof ( InvincibleState ) ) as InvincibleState;
-		//		gameObject.AddComponent ( typeof ( VulnerableState ) ) as VulnerableState;
-		//		gameObject.AddComponent<InvincibleState>();
-		//		gameObject.AddComponent<VulnerableState>();
-//				invincibleState = GetComponent<InvincibleState>();
-//				vulnerableState = GetComponent<VulnerableState>();
 	}
 
 	// Use this for initialization

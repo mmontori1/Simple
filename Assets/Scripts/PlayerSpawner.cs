@@ -7,12 +7,14 @@ public class PlayerSpawner : MonoBehaviour {
 	public Transform spawnerTransform;
 	Vector3 spawnerLocation;
 	GameObject players;
+	public StatePatternPlayer statePattern;
 
 	// Use this for initialization
 	void Start () {
 		spawnerTransform = this.transform;
 		spawnerLocation = spawnerTransform.localPosition;
 		players = GameObject.Find("Players"); 
+		statePattern = newPlayer.GetComponent<StatePatternPlayer>();
 	}
 	
 	// Update is called once per frame
@@ -23,6 +25,9 @@ public class PlayerSpawner : MonoBehaviour {
 	void createNewPlayer(){
 		if(Input.GetKeyDown(KeyCode.R)){
 			Instantiate(newPlayer, spawnerLocation, Quaternion.identity, players.transform);
+//			statePattern = newPlayer.GetComponent<StatePatternPlayer>();
+			statePattern.health = 1;
 		}
+
 	}
 }
