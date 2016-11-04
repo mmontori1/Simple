@@ -1,0 +1,3279 @@
+fileFormatVersion: 2
+guid: 69de0e746d7d64d9b85a5c5e42f953ad
+timeCreated: 1478231702
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DIO Spritesheet bitmap_0
+    21300002: DIO Spritesheet bitmap_1
+    21300004: DIO Spritesheet bitmap_2
+    21300006: DIO Spritesheet bitmap_3
+    21300008: DIO Spritesheet bitmap_4
+    21300010: DIO Spritesheet bitmap_5
+    21300012: DIO Spritesheet bitmap_6
+    21300014: DIO Spritesheet bitmap_7
+    21300016: DIO Spritesheet bitmap_8
+    21300018: DIO Spritesheet bitmap_9
+    21300020: DIO Spritesheet bitmap_10
+    21300022: DIO Spritesheet bitmap_11
+    21300024: DIO Spritesheet bitmap_12
+    21300026: DIO Spritesheet bitmap_13
+    21300028: DIO Spritesheet bitmap_14
+    21300030: DIO Spritesheet bitmap_15
+    21300032: DIO Spritesheet bitmap_16
+    21300034: DIO Spritesheet bitmap_17
+    21300036: DIO Spritesheet bitmap_18
+    21300038: DIO Spritesheet bitmap_19
+    21300040: DIO Spritesheet bitmap_20
+    21300042: DIO Spritesheet bitmap_21
+    21300044: DIO Spritesheet bitmap_22
+    21300046: DIO Spritesheet bitmap_23
+    21300048: DIO Spritesheet bitmap_24
+    21300050: DIO Spritesheet bitmap_25
+    21300052: DIO Spritesheet bitmap_26
+    21300054: DIO Spritesheet bitmap_27
+    21300056: DIO Spritesheet bitmap_28
+    21300058: DIO Spritesheet bitmap_29
+    21300060: DIO Spritesheet bitmap_30
+    21300062: DIO Spritesheet bitmap_31
+    21300064: DIO Spritesheet bitmap_32
+    21300066: DIO Spritesheet bitmap_33
+    21300068: DIO Spritesheet bitmap_34
+    21300070: DIO Spritesheet bitmap_35
+    21300072: DIO Spritesheet bitmap_36
+    21300074: DIO Spritesheet bitmap_37
+    21300076: DIO Spritesheet bitmap_38
+    21300078: DIO Spritesheet bitmap_39
+    21300080: DIO Spritesheet bitmap_40
+    21300082: DIO Spritesheet bitmap_41
+    21300084: DIO Spritesheet bitmap_42
+    21300086: DIO Spritesheet bitmap_43
+    21300088: DIO Spritesheet bitmap_44
+    21300090: DIO Spritesheet bitmap_45
+    21300092: DIO Spritesheet bitmap_46
+    21300094: DIO Spritesheet bitmap_47
+    21300096: DIO Spritesheet bitmap_48
+    21300098: DIO Spritesheet bitmap_49
+    21300100: DIO Spritesheet bitmap_50
+    21300102: DIO Spritesheet bitmap_51
+    21300104: DIO Spritesheet bitmap_52
+    21300106: DIO Spritesheet bitmap_53
+    21300108: DIO Spritesheet bitmap_54
+    21300110: DIO Spritesheet bitmap_55
+    21300112: DIO Spritesheet bitmap_56
+    21300114: DIO Spritesheet bitmap_57
+    21300116: DIO Spritesheet bitmap_58
+    21300118: DIO Spritesheet bitmap_59
+    21300120: DIO Spritesheet bitmap_60
+    21300122: DIO Spritesheet bitmap_61
+    21300124: DIO Spritesheet bitmap_62
+    21300126: DIO Spritesheet bitmap_63
+    21300128: DIO Spritesheet bitmap_64
+    21300130: DIO Spritesheet bitmap_65
+    21300132: DIO Spritesheet bitmap_66
+    21300134: DIO Spritesheet bitmap_67
+    21300136: DIO Spritesheet bitmap_68
+    21300138: DIO Spritesheet bitmap_69
+    21300140: DIO Spritesheet bitmap_70
+    21300142: DIO Spritesheet bitmap_71
+    21300144: DIO Spritesheet bitmap_72
+    21300146: DIO Spritesheet bitmap_73
+    21300148: DIO Spritesheet bitmap_74
+    21300150: DIO Spritesheet bitmap_75
+    21300152: DIO Spritesheet bitmap_76
+    21300154: DIO Spritesheet bitmap_77
+    21300156: DIO Spritesheet bitmap_78
+    21300158: DIO Spritesheet bitmap_79
+    21300160: DIO Spritesheet bitmap_80
+    21300162: DIO Spritesheet bitmap_81
+    21300164: DIO Spritesheet bitmap_82
+    21300166: DIO Spritesheet bitmap_83
+    21300168: DIO Spritesheet bitmap_84
+    21300170: DIO Spritesheet bitmap_85
+    21300172: DIO Spritesheet bitmap_86
+    21300174: DIO Spritesheet bitmap_87
+    21300176: DIO Spritesheet bitmap_88
+    21300178: DIO Spritesheet bitmap_89
+    21300180: DIO Spritesheet bitmap_90
+    21300182: DIO Spritesheet bitmap_91
+    21300184: DIO Spritesheet bitmap_92
+    21300186: DIO Spritesheet bitmap_93
+    21300188: DIO Spritesheet bitmap_94
+    21300190: DIO Spritesheet bitmap_95
+    21300192: DIO Spritesheet bitmap_96
+    21300194: DIO Spritesheet bitmap_97
+    21300196: DIO Spritesheet bitmap_98
+    21300198: DIO Spritesheet bitmap_99
+    21300200: DIO Spritesheet bitmap_100
+    21300202: DIO Spritesheet bitmap_101
+    21300204: DIO Spritesheet bitmap_102
+    21300206: DIO Spritesheet bitmap_103
+    21300208: DIO Spritesheet bitmap_104
+    21300210: DIO Spritesheet bitmap_105
+    21300212: DIO Spritesheet bitmap_106
+    21300214: DIO Spritesheet bitmap_107
+    21300216: DIO Spritesheet bitmap_108
+    21300218: DIO Spritesheet bitmap_109
+    21300220: DIO Spritesheet bitmap_110
+    21300222: DIO Spritesheet bitmap_111
+    21300224: DIO Spritesheet bitmap_112
+    21300226: DIO Spritesheet bitmap_113
+    21300228: DIO Spritesheet bitmap_114
+    21300230: DIO Spritesheet bitmap_115
+    21300232: DIO Spritesheet bitmap_116
+    21300234: DIO Spritesheet bitmap_117
+    21300236: DIO Spritesheet bitmap_118
+    21300238: DIO Spritesheet bitmap_119
+    21300240: DIO Spritesheet bitmap_120
+    21300242: DIO Spritesheet bitmap_121
+    21300244: DIO Spritesheet bitmap_122
+    21300246: DIO Spritesheet bitmap_123
+    21300248: DIO Spritesheet bitmap_124
+    21300250: DIO Spritesheet bitmap_125
+    21300252: DIO Spritesheet bitmap_126
+    21300254: DIO Spritesheet bitmap_127
+    21300256: DIO Spritesheet bitmap_128
+    21300258: DIO Spritesheet bitmap_129
+    21300260: DIO Spritesheet bitmap_130
+    21300262: DIO Spritesheet bitmap_131
+    21300264: DIO Spritesheet bitmap_132
+    21300266: DIO Spritesheet bitmap_133
+    21300268: DIO Spritesheet bitmap_134
+    21300270: DIO Spritesheet bitmap_135
+    21300272: DIO Spritesheet bitmap_136
+    21300274: DIO Spritesheet bitmap_137
+    21300276: DIO Spritesheet bitmap_138
+    21300278: DIO Spritesheet bitmap_139
+    21300280: DIO Spritesheet bitmap_140
+    21300282: DIO Spritesheet bitmap_141
+    21300284: DIO Spritesheet bitmap_142
+    21300286: DIO Spritesheet bitmap_143
+    21300288: DIO Spritesheet bitmap_144
+    21300290: DIO Spritesheet bitmap_145
+    21300292: DIO Spritesheet bitmap_146
+    21300294: DIO Spritesheet bitmap_147
+    21300296: DIO Spritesheet bitmap_148
+    21300298: DIO Spritesheet bitmap_149
+    21300300: DIO Spritesheet bitmap_150
+    21300302: DIO Spritesheet bitmap_151
+    21300304: DIO Spritesheet bitmap_152
+    21300306: DIO Spritesheet bitmap_153
+    21300308: DIO Spritesheet bitmap_154
+    21300310: DIO Spritesheet bitmap_155
+    21300312: DIO Spritesheet bitmap_156
+    21300314: DIO Spritesheet bitmap_157
+    21300316: DIO Spritesheet bitmap_158
+    21300318: DIO Spritesheet bitmap_159
+    21300320: DIO Spritesheet bitmap_160
+    21300322: DIO Spritesheet bitmap_161
+    21300324: DIO Spritesheet bitmap_162
+    21300326: DIO Spritesheet bitmap_163
+    21300328: DIO Spritesheet bitmap_164
+    21300330: DIO Spritesheet bitmap_165
+    21300332: DIO Spritesheet bitmap_166
+    21300334: DIO Spritesheet bitmap_167
+    21300336: DIO Spritesheet bitmap_168
+    21300338: DIO Spritesheet bitmap_169
+    21300340: DIO Spritesheet bitmap_170
+    21300342: DIO Spritesheet bitmap_171
+    21300344: DIO Spritesheet bitmap_172
+    21300346: DIO Spritesheet bitmap_173
+    21300348: DIO Spritesheet bitmap_174
+    21300350: DIO Spritesheet bitmap_175
+    21300352: DIO Spritesheet bitmap_176
+    21300354: DIO Spritesheet bitmap_177
+    21300356: DIO Spritesheet bitmap_178
+    21300358: DIO Spritesheet bitmap_179
+    21300360: DIO Spritesheet bitmap_180
+    21300362: DIO Spritesheet bitmap_181
+    21300364: DIO Spritesheet bitmap_182
+    21300366: DIO Spritesheet bitmap_183
+    21300368: DIO Spritesheet bitmap_184
+    21300370: DIO Spritesheet bitmap_185
+    21300372: DIO Spritesheet bitmap_186
+    21300374: DIO Spritesheet bitmap_187
+    21300376: DIO Spritesheet bitmap_188
+    21300378: DIO Spritesheet bitmap_189
+    21300380: DIO Spritesheet bitmap_190
+    21300382: DIO Spritesheet bitmap_191
+    21300384: DIO Spritesheet bitmap_192
+    21300386: DIO Spritesheet bitmap_193
+    21300388: DIO Spritesheet bitmap_194
+    21300390: DIO Spritesheet bitmap_195
+    21300392: DIO Spritesheet bitmap_196
+    21300394: DIO Spritesheet bitmap_197
+    21300396: DIO Spritesheet bitmap_198
+    21300398: DIO Spritesheet bitmap_199
+    21300400: DIO Spritesheet bitmap_200
+    21300402: DIO Spritesheet bitmap_201
+    21300404: DIO Spritesheet bitmap_202
+    21300406: DIO Spritesheet bitmap_203
+    21300408: DIO Spritesheet bitmap_204
+    21300410: DIO Spritesheet bitmap_205
+    21300412: DIO Spritesheet bitmap_206
+    21300414: DIO Spritesheet bitmap_207
+    21300416: DIO Spritesheet bitmap_208
+    21300418: DIO Spritesheet bitmap_209
+    21300420: DIO Spritesheet bitmap_210
+    21300422: DIO Spritesheet bitmap_211
+    21300424: DIO Spritesheet bitmap_212
+    21300426: DIO Spritesheet bitmap_213
+    21300428: DIO Spritesheet bitmap_214
+    21300430: DIO Spritesheet bitmap_215
+    21300432: DIO Spritesheet bitmap_216
+    21300434: DIO Spritesheet bitmap_217
+    21300436: DIO Spritesheet bitmap_218
+    21300438: DIO Spritesheet bitmap_219
+    21300440: DIO Spritesheet bitmap_220
+    21300442: DIO Spritesheet bitmap_221
+    21300444: DIO Spritesheet bitmap_222
+    21300446: DIO Spritesheet bitmap_223
+    21300448: DIO Spritesheet bitmap_224
+    21300450: DIO Spritesheet bitmap_225
+    21300452: DIO Spritesheet bitmap_226
+    21300454: DIO Spritesheet bitmap_227
+    21300456: DIO Spritesheet bitmap_228
+    21300458: DIO Spritesheet bitmap_229
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2028
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2028
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2028
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2028
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2028
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_5
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2028
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2028
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_7
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2028
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_8
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2028
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_9
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2028
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1938
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1938
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1938
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1938
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1938
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1938
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_16
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1938
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_17
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1938
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1938
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_19
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1938
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1848
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1848
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1848
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1848
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_25
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1848
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_26
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1848
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_27
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1848
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_28
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1848
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_29
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1848
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1758
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_31
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1758
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1758
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_33
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1758
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_34
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1758
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_35
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1758
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_36
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1758
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_37
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1758
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_38
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1758
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_39
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1758
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1668
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_41
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1668
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1668
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_43
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1668
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_44
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1668
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_45
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1668
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_46
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1668
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_47
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1668
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_48
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1668
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_49
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1668
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1578
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_51
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1578
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_52
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1578
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_53
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1578
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_54
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1578
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_55
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1578
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_56
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1578
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_57
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1578
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_58
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1578
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_59
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1578
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_61
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1488
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_62
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1488
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_63
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1488
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_64
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1488
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_65
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1488
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_66
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1488
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_67
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1488
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_68
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1488
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_69
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1488
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1398
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_71
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1398
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_72
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1398
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1398
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_74
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1398
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_75
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1398
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_76
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1398
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_77
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1398
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_78
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1398
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_79
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1398
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1308
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_81
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1308
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_82
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1308
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_83
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1308
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_84
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1308
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_85
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1308
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_86
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1308
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_87
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1308
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_88
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1308
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_89
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1308
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_91
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1218
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_92
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1218
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_93
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1218
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_94
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1218
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_95
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1218
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_96
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1218
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_97
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1218
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_98
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1218
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_99
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1218
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_101
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1128
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_102
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1128
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_103
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1128
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_104
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1128
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_105
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1128
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_106
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1128
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_107
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1128
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_108
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1128
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_109
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1128
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1038
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_111
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1038
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_112
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1038
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_113
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1038
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_114
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1038
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_115
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1038
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_116
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1038
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_117
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1038
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_118
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1038
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_119
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1038
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 948
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_121
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 948
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_122
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 948
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_123
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 948
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_124
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 948
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_125
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 948
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_126
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 948
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_127
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 948
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_128
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 948
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_129
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 948
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 858
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_131
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 858
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_132
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 858
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_133
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 858
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_134
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 858
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_135
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 858
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_136
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 858
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_137
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 858
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_138
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 858
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_139
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 858
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_141
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 768
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_142
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 768
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_143
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 768
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_144
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 768
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_145
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 768
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_146
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 768
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_147
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 768
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_148
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 768
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_149
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 768
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_151
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 678
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_152
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 678
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_153
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 678
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_154
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 678
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_155
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 678
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_156
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 678
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_157
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 678
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_158
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 678
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_159
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 678
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_161
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 588
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_162
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 588
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_163
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 588
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_164
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 588
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_165
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 588
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_166
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 588
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_167
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 588
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_168
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 588
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_169
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 588
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_171
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 498
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_172
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 498
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_173
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 498
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_174
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 498
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_175
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 498
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_176
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 498
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_177
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 498
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_178
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 498
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_179
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 498
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_181
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 408
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_182
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 408
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_183
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 408
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_184
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 408
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_185
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 408
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_186
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 408
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_187
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 408
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_188
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 408
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_189
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 408
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_191
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 318
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_192
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 318
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_193
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 318
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_194
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 318
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_195
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 318
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_196
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 318
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_197
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 318
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_198
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 318
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_199
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 318
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_201
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 228
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_202
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 228
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_203
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 228
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_204
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 228
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_205
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 228
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_206
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 228
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_207
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 228
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_208
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 228
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_209
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 228
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_211
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 138
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_212
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 138
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_213
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 138
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_214
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 138
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_215
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 138
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_216
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 138
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_217
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 138
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_218
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 138
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_219
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 138
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_221
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 48
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_222
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 48
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_223
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 48
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_224
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 48
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_225
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 48
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_226
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 48
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_227
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 48
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_228
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 48
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DIO Spritesheet bitmap_229
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 48
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

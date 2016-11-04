@@ -19,7 +19,7 @@ public class StatePatternPlayer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		currentState = vulnerableState;
-		health = 1;
+		health = 2;
 		invincible = false;
 		once = false;
 	}

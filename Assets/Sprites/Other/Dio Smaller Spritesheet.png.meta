@@ -1,0 +1,3139 @@
+fileFormatVersion: 2
+guid: 10580952027984268b21e8c13f6cf19d
+timeCreated: 1478230658
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dio Smaller Spritesheet_0
+    21300002: Dio Smaller Spritesheet_1
+    21300004: Dio Smaller Spritesheet_2
+    21300006: Dio Smaller Spritesheet_3
+    21300008: Dio Smaller Spritesheet_4
+    21300010: Dio Smaller Spritesheet_5
+    21300012: Dio Smaller Spritesheet_6
+    21300014: Dio Smaller Spritesheet_7
+    21300016: Dio Smaller Spritesheet_8
+    21300018: Dio Smaller Spritesheet_9
+    21300020: Dio Smaller Spritesheet_10
+    21300022: Dio Smaller Spritesheet_11
+    21300024: Dio Smaller Spritesheet_12
+    21300026: Dio Smaller Spritesheet_13
+    21300028: Dio Smaller Spritesheet_14
+    21300030: Dio Smaller Spritesheet_15
+    21300032: Dio Smaller Spritesheet_16
+    21300034: Dio Smaller Spritesheet_17
+    21300036: Dio Smaller Spritesheet_18
+    21300038: Dio Smaller Spritesheet_19
+    21300040: Dio Smaller Spritesheet_20
+    21300042: Dio Smaller Spritesheet_21
+    21300044: Dio Smaller Spritesheet_22
+    21300046: Dio Smaller Spritesheet_23
+    21300048: Dio Smaller Spritesheet_24
+    21300050: Dio Smaller Spritesheet_25
+    21300052: Dio Smaller Spritesheet_26
+    21300054: Dio Smaller Spritesheet_27
+    21300056: Dio Smaller Spritesheet_28
+    21300058: Dio Smaller Spritesheet_29
+    21300060: Dio Smaller Spritesheet_30
+    21300062: Dio Smaller Spritesheet_31
+    21300064: Dio Smaller Spritesheet_32
+    21300066: Dio Smaller Spritesheet_33
+    21300068: Dio Smaller Spritesheet_34
+    21300070: Dio Smaller Spritesheet_35
+    21300072: Dio Smaller Spritesheet_36
+    21300074: Dio Smaller Spritesheet_37
+    21300076: Dio Smaller Spritesheet_38
+    21300078: Dio Smaller Spritesheet_39
+    21300080: Dio Smaller Spritesheet_40
+    21300082: Dio Smaller Spritesheet_41
+    21300084: Dio Smaller Spritesheet_42
+    21300086: Dio Smaller Spritesheet_43
+    21300088: Dio Smaller Spritesheet_44
+    21300090: Dio Smaller Spritesheet_45
+    21300092: Dio Smaller Spritesheet_46
+    21300094: Dio Smaller Spritesheet_47
+    21300096: Dio Smaller Spritesheet_48
+    21300098: Dio Smaller Spritesheet_49
+    21300100: Dio Smaller Spritesheet_50
+    21300102: Dio Smaller Spritesheet_51
+    21300104: Dio Smaller Spritesheet_52
+    21300106: Dio Smaller Spritesheet_53
+    21300108: Dio Smaller Spritesheet_54
+    21300110: Dio Smaller Spritesheet_55
+    21300112: Dio Smaller Spritesheet_56
+    21300114: Dio Smaller Spritesheet_57
+    21300116: Dio Smaller Spritesheet_58
+    21300118: Dio Smaller Spritesheet_59
+    21300120: Dio Smaller Spritesheet_60
+    21300122: Dio Smaller Spritesheet_61
+    21300124: Dio Smaller Spritesheet_62
+    21300126: Dio Smaller Spritesheet_63
+    21300128: Dio Smaller Spritesheet_64
+    21300130: Dio Smaller Spritesheet_65
+    21300132: Dio Smaller Spritesheet_66
+    21300134: Dio Smaller Spritesheet_67
+    21300136: Dio Smaller Spritesheet_68
+    21300138: Dio Smaller Spritesheet_69
+    21300140: Dio Smaller Spritesheet_70
+    21300142: Dio Smaller Spritesheet_71
+    21300144: Dio Smaller Spritesheet_72
+    21300146: Dio Smaller Spritesheet_73
+    21300148: Dio Smaller Spritesheet_74
+    21300150: Dio Smaller Spritesheet_75
+    21300152: Dio Smaller Spritesheet_76
+    21300154: Dio Smaller Spritesheet_77
+    21300156: Dio Smaller Spritesheet_78
+    21300158: Dio Smaller Spritesheet_79
+    21300160: Dio Smaller Spritesheet_80
+    21300162: Dio Smaller Spritesheet_81
+    21300164: Dio Smaller Spritesheet_82
+    21300166: Dio Smaller Spritesheet_83
+    21300168: Dio Smaller Spritesheet_84
+    21300170: Dio Smaller Spritesheet_85
+    21300172: Dio Smaller Spritesheet_86
+    21300174: Dio Smaller Spritesheet_87
+    21300176: Dio Smaller Spritesheet_88
+    21300178: Dio Smaller Spritesheet_89
+    21300180: Dio Smaller Spritesheet_90
+    21300182: Dio Smaller Spritesheet_91
+    21300184: Dio Smaller Spritesheet_92
+    21300186: Dio Smaller Spritesheet_93
+    21300188: Dio Smaller Spritesheet_94
+    21300190: Dio Smaller Spritesheet_95
+    21300192: Dio Smaller Spritesheet_96
+    21300194: Dio Smaller Spritesheet_97
+    21300196: Dio Smaller Spritesheet_98
+    21300198: Dio Smaller Spritesheet_99
+    21300200: Dio Smaller Spritesheet_100
+    21300202: Dio Smaller Spritesheet_101
+    21300204: Dio Smaller Spritesheet_102
+    21300206: Dio Smaller Spritesheet_103
+    21300208: Dio Smaller Spritesheet_104
+    21300210: Dio Smaller Spritesheet_105
+    21300212: Dio Smaller Spritesheet_106
+    21300214: Dio Smaller Spritesheet_107
+    21300216: Dio Smaller Spritesheet_108
+    21300218: Dio Smaller Spritesheet_109
+    21300220: Dio Smaller Spritesheet_110
+    21300222: Dio Smaller Spritesheet_111
+    21300224: Dio Smaller Spritesheet_112
+    21300226: Dio Smaller Spritesheet_113
+    21300228: Dio Smaller Spritesheet_114
+    21300230: Dio Smaller Spritesheet_115
+    21300232: Dio Smaller Spritesheet_116
+    21300234: Dio Smaller Spritesheet_117
+    21300236: Dio Smaller Spritesheet_118
+    21300238: Dio Smaller Spritesheet_119
+    21300240: Dio Smaller Spritesheet_120
+    21300242: Dio Smaller Spritesheet_121
+    21300244: Dio Smaller Spritesheet_122
+    21300246: Dio Smaller Spritesheet_123
+    21300248: Dio Smaller Spritesheet_124
+    21300250: Dio Smaller Spritesheet_125
+    21300252: Dio Smaller Spritesheet_126
+    21300254: Dio Smaller Spritesheet_127
+    21300256: Dio Smaller Spritesheet_128
+    21300258: Dio Smaller Spritesheet_129
+    21300260: Dio Smaller Spritesheet_130
+    21300262: Dio Smaller Spritesheet_131
+    21300264: Dio Smaller Spritesheet_132
+    21300266: Dio Smaller Spritesheet_133
+    21300268: Dio Smaller Spritesheet_134
+    21300270: Dio Smaller Spritesheet_135
+    21300272: Dio Smaller Spritesheet_136
+    21300274: Dio Smaller Spritesheet_137
+    21300276: Dio Smaller Spritesheet_138
+    21300278: Dio Smaller Spritesheet_139
+    21300280: Dio Smaller Spritesheet_140
+    21300282: Dio Smaller Spritesheet_141
+    21300284: Dio Smaller Spritesheet_142
+    21300286: Dio Smaller Spritesheet_143
+    21300288: Dio Smaller Spritesheet_144
+    21300290: Dio Smaller Spritesheet_145
+    21300292: Dio Smaller Spritesheet_146
+    21300294: Dio Smaller Spritesheet_147
+    21300296: Dio Smaller Spritesheet_148
+    21300298: Dio Smaller Spritesheet_149
+    21300300: Dio Smaller Spritesheet_150
+    21300302: Dio Smaller Spritesheet_151
+    21300304: Dio Smaller Spritesheet_152
+    21300306: Dio Smaller Spritesheet_153
+    21300308: Dio Smaller Spritesheet_154
+    21300310: Dio Smaller Spritesheet_155
+    21300312: Dio Smaller Spritesheet_156
+    21300314: Dio Smaller Spritesheet_157
+    21300316: Dio Smaller Spritesheet_158
+    21300318: Dio Smaller Spritesheet_159
+    21300320: Dio Smaller Spritesheet_160
+    21300322: Dio Smaller Spritesheet_161
+    21300324: Dio Smaller Spritesheet_162
+    21300326: Dio Smaller Spritesheet_163
+    21300328: Dio Smaller Spritesheet_164
+    21300330: Dio Smaller Spritesheet_165
+    21300332: Dio Smaller Spritesheet_166
+    21300334: Dio Smaller Spritesheet_167
+    21300336: Dio Smaller Spritesheet_168
+    21300338: Dio Smaller Spritesheet_169
+    21300340: Dio Smaller Spritesheet_170
+    21300342: Dio Smaller Spritesheet_171
+    21300344: Dio Smaller Spritesheet_172
+    21300346: Dio Smaller Spritesheet_173
+    21300348: Dio Smaller Spritesheet_174
+    21300350: Dio Smaller Spritesheet_175
+    21300352: Dio Smaller Spritesheet_176
+    21300354: Dio Smaller Spritesheet_177
+    21300356: Dio Smaller Spritesheet_178
+    21300358: Dio Smaller Spritesheet_179
+    21300360: Dio Smaller Spritesheet_180
+    21300362: Dio Smaller Spritesheet_181
+    21300364: Dio Smaller Spritesheet_182
+    21300366: Dio Smaller Spritesheet_183
+    21300368: Dio Smaller Spritesheet_184
+    21300370: Dio Smaller Spritesheet_185
+    21300372: Dio Smaller Spritesheet_186
+    21300374: Dio Smaller Spritesheet_187
+    21300376: Dio Smaller Spritesheet_188
+    21300378: Dio Smaller Spritesheet_189
+    21300380: Dio Smaller Spritesheet_190
+    21300382: Dio Smaller Spritesheet_191
+    21300384: Dio Smaller Spritesheet_192
+    21300386: Dio Smaller Spritesheet_193
+    21300388: Dio Smaller Spritesheet_194
+    21300390: Dio Smaller Spritesheet_195
+    21300392: Dio Smaller Spritesheet_196
+    21300394: Dio Smaller Spritesheet_197
+    21300396: Dio Smaller Spritesheet_198
+    21300398: Dio Smaller Spritesheet_199
+    21300400: Dio Smaller Spritesheet_200
+    21300402: Dio Smaller Spritesheet_201
+    21300404: Dio Smaller Spritesheet_202
+    21300406: Dio Smaller Spritesheet_203
+    21300408: Dio Smaller Spritesheet_204
+    21300410: Dio Smaller Spritesheet_205
+    21300412: Dio Smaller Spritesheet_206
+    21300414: Dio Smaller Spritesheet_207
+    21300416: Dio Smaller Spritesheet_208
+    21300418: Dio Smaller Spritesheet_209
+    21300420: Dio Smaller Spritesheet_210
+    21300422: Dio Smaller Spritesheet_211
+    21300424: Dio Smaller Spritesheet_212
+    21300426: Dio Smaller Spritesheet_213
+    21300428: Dio Smaller Spritesheet_214
+    21300430: Dio Smaller Spritesheet_215
+    21300432: Dio Smaller Spritesheet_216
+    21300434: Dio Smaller Spritesheet_217
+    21300436: Dio Smaller Spritesheet_218
+    21300438: Dio Smaller Spritesheet_219
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2044
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2044
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2044
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2044
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2044
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2044
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2044
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 2044
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 2044
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 2044
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1949
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1949
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1949
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1949
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1949
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1949
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1949
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1949
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1949
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1949
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1854
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1854
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1854
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1854
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1854
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1854
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1854
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1854
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1854
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1854
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1759
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1759
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1759
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1759
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1759
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1759
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1759
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1759
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1759
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1759
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1664
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1664
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1664
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1664
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1664
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1664
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1664
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1664
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1664
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1569
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1569
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1569
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1569
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1569
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1569
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1569
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1569
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1569
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1569
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1474
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1474
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1474
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1474
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1474
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1474
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1474
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1474
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1474
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1474
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1379
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1379
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1379
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1379
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1379
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1379
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1379
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1379
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1379
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1379
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1284
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1284
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1284
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1284
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1284
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1284
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1284
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1284
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1284
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1284
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1189
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1189
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1189
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1189
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1189
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1189
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1189
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1189
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1189
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1189
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1094
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1094
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1094
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1094
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1094
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1094
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1094
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1094
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1094
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1094
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 999
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 999
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 999
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 999
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 999
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 999
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 999
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 999
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 999
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 999
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 904
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 904
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 904
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 904
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 904
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 904
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 904
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 904
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 904
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 809
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 809
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 809
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 809
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 809
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 809
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 809
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 809
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 809
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 809
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 714
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 714
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 714
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 714
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 714
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 714
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 714
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 714
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 714
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 714
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 619
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 619
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 619
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 619
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 619
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 619
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 619
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 619
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 619
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 619
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 524
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_161
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 524
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_162
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 524
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_163
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 524
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_164
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 524
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 524
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 524
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 524
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 524
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_169
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 524
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_171
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 429
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_172
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 429
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_173
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 429
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_174
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 429
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_175
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 429
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_176
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 429
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_177
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 429
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_178
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 429
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_179
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 429
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_181
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 334
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_182
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 334
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_183
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 334
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_184
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 334
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_185
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 334
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_186
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 334
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_187
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 334
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_188
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 334
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_189
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 334
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_191
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 239
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_192
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 239
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_193
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 239
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_194
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 239
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_195
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 239
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_196
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 239
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_197
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 239
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_198
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 239
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_199
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 239
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_201
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 144
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_202
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 144
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_203
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 144
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_204
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 144
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_205
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 144
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_206
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 144
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_207
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 144
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_208
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 144
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_209
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 144
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_211
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 49
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_212
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 49
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_213
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 49
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_214
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 49
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_215
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 49
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_216
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 49
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_217
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 49
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_218
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 49
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dio Smaller Spritesheet_219
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 49
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

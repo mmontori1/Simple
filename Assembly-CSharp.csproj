@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\DIO\dioCharacter.cs" />
      <Compile Include="Assets\Scripts\Ground.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\Player States\IPlayerState.cs" />
