@@ -19,7 +19,7 @@ public class StatePatternPlayer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		currentState = vulnerableState;
-		health = 2;
+		health = 8;
 		invincible = false;
 		once = false;
 	}
@@ -41,9 +41,9 @@ public class StatePatternPlayer : MonoBehaviour {
 	}
 
 	private IEnumerator invincibleT(){
-		Debug.Log (Time.time);
+//		Debug.Log (Time.time);
 		yield return new WaitForSeconds(3f);
 		invincible = false;
-		Debug.Log (Time.time);
+//		Debug.Log (Time.time);
 	}
 }

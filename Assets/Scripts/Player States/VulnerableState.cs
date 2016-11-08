@@ -21,7 +21,10 @@ public class VulnerableState : IPlayerState {
 //				Destroy (coll.gameObject);
 			} 
 			else {
-				player.health = player.health - 1;
+				int damage = coll.gameObject.GetComponent<enemyDmg>().getDmg();
+				Debug.Log("dmg: " + damage);
+				player.health = player.health - damage;
+				Debug.Log ("health: " + player.health);
 				player.invincible = true;
 				player.once = true;
 				if(player.health == 0){
