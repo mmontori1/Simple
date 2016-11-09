@@ -46,18 +46,19 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DIO\dioCharacter.cs" />
-     <Compile Include="Assets\Scripts\Ground.cs" />
-     <Compile Include="Assets\Scripts\Health.cs" />
-     <Compile Include="Assets\Scripts\Player States\IPlayerState.cs" />
-     <Compile Include="Assets\Scripts\Player States\InvincibleState.cs" />
-     <Compile Include="Assets\Scripts\Player States\StatePatternPlayer.cs" />
-     <Compile Include="Assets\Scripts\Player States\VulnerableState.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
-     <Compile Include="Assets\Scripts\RedGuy.cs" />
-     <Compile Include="Assets\Scripts\Water.cs" />
-     <Compile Include="Assets\Scripts\enemyDmg.cs" />
-     <Compile Include="Assets\Scripts\redGuyDmg.cs" />
+     <Compile Include="Assets\Scripts\Simple\Ground.cs" />
+     <Compile Include="Assets\Scripts\Simple\Health.cs" />
+     <Compile Include="Assets\Scripts\Simple\Player States\IPlayerState.cs" />
+     <Compile Include="Assets\Scripts\Simple\Player States\InvincibleState.cs" />
+     <Compile Include="Assets\Scripts\Simple\Player States\StatePatternPlayer.cs" />
+     <Compile Include="Assets\Scripts\Simple\Player States\VulnerableState.cs" />
+     <Compile Include="Assets\Scripts\Simple\Player.cs" />
+     <Compile Include="Assets\Scripts\Simple\PlayerSpawner.cs" />
+     <Compile Include="Assets\Scripts\Simple\RedGuy.cs" />
+     <Compile Include="Assets\Scripts\Simple\Water.cs" />
+     <Compile Include="Assets\Scripts\Simple\enemyDmg.cs" />
+     <Compile Include="Assets\Scripts\Simple\redGuyDmg.cs" />
+     <Compile Include="Assets\Scripts\p-knight test\pKnightController.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
