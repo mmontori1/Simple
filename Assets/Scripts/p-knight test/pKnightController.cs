@@ -6,7 +6,7 @@ public class pKnightController : MonoBehaviour {
 	private GameObject pKnight;
 	private Rigidbody2D rb;
 	public SpriteRenderer spriteRender;
-	charMovement pKnightMovement;
+	public charMovement pKnightMovement;
 
 	// Use this for initialization
 	void Start () {
@@ -25,9 +25,14 @@ public class pKnightController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		movement ();
-//		if(rb.velocity == pKnightMovement.stop){
-//			Debug.Log (spriteRender.bounds);
-//		}
+		pKnightMovement.setEdges(spriteRender.bounds);
+		if(rb.velocity.x == 0){
+//			Debug.Log(pKnightMovement.getRight());
+		}
+		//		pKnightMovement
+		//		if (zoneEnabled) {
+		//		}
+
 	}
 
 	void movement(){
@@ -51,18 +56,51 @@ public class pKnightController : MonoBehaviour {
 			spriteRender.flipX = true;
 		}
 	}
-		
-	struct charMovement{
-		public int walkSpeed;
-		public int jumpHeight;
-		public Bounds bound;
-		public Vector2 stop;
+}
 
-		public charMovement(int speed, int jump, Bounds bounds){
-			walkSpeed = speed;
-			jumpHeight = jump;
-			bound = bounds;
-			stop = new Vector2 (0, 0);
-		}
+public class charMovement{
+	public int walkSpeed;
+	public int jumpHeight;
+	public Bounds bound;
+	public Vector2 stop;
+	float top, bottom;
+	float left, right;
+
+	public charMovement(int speed, int jump, Bounds bounds){
+		walkSpeed = speed;
+		jumpHeight = jump;
+		bound = bounds;
+		stop = new Vector2 (0, 0);
+		right = bound.center.x + bound.extents.x;
+		left = right - 2 * bound.extents.x;
+		top = bound.center.y + bound.extents.y;
+		bottom = top - 2 * bound.extents.y;
 	}
+
+	public void setEdges(Bounds bounds){
+		bound = bounds;
+		right = bound.center.x + bound.extents.x;
+		left = right - 2 * bound.extents.x;
+		top = bound.center.y + bound.extents.y;
+		bottom = top - 2 * bound.extents.y;
+	}
+
+	public float getRight(){
+		return right;
+	}
+
+	public float getLeft(){
+		return left;
+	}
+
+	public float getTop(){
+		return top;
+	}
+
+	public float getBottom(){
+		return bottom;
+	}
+
+//	public float returnEdges(){
+//	}
 }
