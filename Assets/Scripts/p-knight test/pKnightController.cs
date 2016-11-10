@@ -6,7 +6,7 @@ public class pKnightController : MonoBehaviour {
 	private GameObject pKnight;
 	private Rigidbody2D rb;
 	public SpriteRenderer spriteRender;
-	charMovement pKnightMovement;
+	public charMovement pKnightMovement;
 
 	// Use this for initialization
 	void Start () {
@@ -52,17 +52,23 @@ public class pKnightController : MonoBehaviour {
 		}
 	}
 		
-	struct charMovement{
+	public class charMovement{
 		public int walkSpeed;
 		public int jumpHeight;
 		public Bounds bound;
 		public Vector2 stop;
+		public float left, right;
+		public float top, bottom;
 
 		public charMovement(int speed, int jump, Bounds bounds){
 			walkSpeed = speed;
 			jumpHeight = jump;
 			bound = bounds;
 			stop = new Vector2 (0, 0);
+			right = bound.extents.x;
+			left = -1 * right;
+			top = bound.extents.y;
+			bottom = -1 * top;
 		}
 	}
 }
