@@ -4,6 +4,8 @@ using System.Collections;
 public class cameraFollow : MonoBehaviour {
 
 	public GameObject focusObject;
+	public Rigidbody2D rb;
+	public Rigidbody2D pKnightRB;
 	public SpriteRenderer cameraSpriteRender;
 	public pKnightController controller;
 	public focusArea cFocusArea;
@@ -15,17 +17,21 @@ public class cameraFollow : MonoBehaviour {
 		controller = GameObject.Find("Purple Knight").GetComponent<pKnightController>();
 		cameraSpriteRender = focusObject.GetComponent<SpriteRenderer>();
 		cFocusArea = new focusArea (cameraSpriteRender.bounds, focusObject);
+		rb = focusObject.GetComponent<Rigidbody2D>();
+		pKnightRB = controller.GetComponent<Rigidbody2D>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		pKnightMovement = controller.pKnightMovement;
 		if(pKnightMovement.getRight() > cFocusArea.getRight()){
-			cFocusArea.setRight(cameraSpriteRender.bounds, pKnightMovement.getRight());
-//			Debug.Log (cameraSpriteRender.bounds);
+			cFocusArea.setRight(cameraSpriteRender.bounds, pKnightMovement.getRight(), pKnightRB, rb);
 		}
-		if(pKnightMovement.getLeft() < cFocusArea.getLeft()){
-			cFocusArea.setLeft(cameraSpriteRender.bounds, pKnightMovement.getLeft());
+		else if(pKnightMovement.getLeft() < cFocusArea.getLeft()){
+			cFocusArea.setLeft(cameraSpriteRender.bounds, pKnightMovement.getLeft(), pKnightRB, rb);
+		}
+		else{
+			cFocusArea.resetHorizontalSpeed(cameraSpriteRender.bounds, rb);
 		}
 	}
 }
@@ -45,26 +51,24 @@ public class focusArea{
 		focusAreaObject = newObject;
 	}
 
-//	public void setEdges(Bounds bounds){
-//		bound = bounds;
-//		right = bound.center.x + bound.extents.x;
-//		left = right - 2 * bound.extents.x;
-//		top = bound.center.y + bound.extents.y;
-//		bottom = top - 2 * bound.extents.y;
-//	}
-
-	public void setRight(Bounds bounds, float newRight){
-//		bound = bounds;
-		Debug.Log("newRight" + newRight);
+	public void resetHorizontalSpeed(Bounds bounds, Rigidbody2D newRB){
+		left = focusAreaObject.transform.position.x - bound.extents.x;
 		right = focusAreaObject.transform.position.x + bound.extents.x;
-		Debug.Log ("right" + right);
-		focusAreaObject.transform.Translate (new Vector3 (newRight - (focusAreaObject.transform.position.x + (focusAreaObject.transform.localScale.x / 2)), 0, 0));
+		newRB.velocity = new Vector3(0, newRB.velocity.y, 0);
+	}
+		
+	public void setRight(Bounds bounds, float newRight, Rigidbody2D oldRB, Rigidbody2D newRB){
+		bounds = bound;
+		left = focusAreaObject.transform.position.x - bound.extents.x;
+		right = focusAreaObject.transform.position.x + bound.extents.x;
+		newRB.velocity = new Vector3(oldRB.velocity.x, newRB.velocity.y, 0);
 	}
 
-	public void setLeft(Bounds bounds, float newLeft){
-//		bound = bounds;
+	public void setLeft(Bounds bounds, float newLeft, Rigidbody2D oldRB, Rigidbody2D newRB){
+		bounds = bound;
 		left = focusAreaObject.transform.position.x - bound.extents.x;
-		focusAreaObject.transform.Translate (new Vector3 (newLeft - (focusAreaObject.transform.position.x - (focusAreaObject.transform.localScale.x / 2)), 0, 0));
+		right = focusAreaObject.transform.position.x + bound.extents.x;
+		newRB.velocity = new Vector3(oldRB.velocity.x, newRB.velocity.y, 0);
 	}
 
 	public float getRight(){
