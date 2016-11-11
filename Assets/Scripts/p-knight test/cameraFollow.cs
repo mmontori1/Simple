@@ -24,14 +24,33 @@ public class cameraFollow : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		pKnightMovement = controller.pKnightMovement;
-		if(pKnightMovement.getRight() > cFocusArea.getRight()){
+		if(pKnightMovement.getRight() > cFocusArea.getRight() && pKnightRB.velocity.x != 0){
 			cFocusArea.setRight(cameraSpriteRender.bounds, pKnightMovement.getRight(), pKnightRB, rb);
+			Debug.Log ("a");
 		}
-		else if(pKnightMovement.getLeft() < cFocusArea.getLeft()){
+		else if(pKnightMovement.getLeft() < cFocusArea.getLeft() && pKnightRB.velocity.x != 0){
 			cFocusArea.setLeft(cameraSpriteRender.bounds, pKnightMovement.getLeft(), pKnightRB, rb);
+			Debug.Log ("b");
 		}
 		else{
 			cFocusArea.resetHorizontalSpeed(cameraSpriteRender.bounds, rb);
+			Debug.Log ("c");
+		}
+		if(pKnightMovement.getRight() > cFocusArea.getRight() && pKnightRB.velocity.x == 0){
+			cFocusArea.setRight(pKnightMovement.getRight());
+			Debug.Log ("d");
+		}
+		if(pKnightMovement.getLeft() < cFocusArea.getLeft() && pKnightRB.velocity.x == 0){
+			Debug.Log (pKnightMovement.getLeft());
+			Debug.Log (cFocusArea.getLeft ());
+			if(pKnightMovement.getLeft() < cFocusArea.getLeft()){
+				rb.velocity = new Vector3(-70, rb.velocity.y, 0);
+				cFocusArea.setLeft(cameraSpriteRender.bounds.center.x - cameraSpriteRender.bounds.extents.x);
+			}
+			else{
+				rb.velocity = new Vector3(0, rb.velocity.y, 0);
+			}
+//			cFocusArea.setLeft(pKnightMovement.getLeft());
 		}
 	}
 }
@@ -52,8 +71,8 @@ public class focusArea{
 	}
 
 	public void resetHorizontalSpeed(Bounds bounds, Rigidbody2D newRB){
-		left = focusAreaObject.transform.position.x - bound.extents.x;
-		right = focusAreaObject.transform.position.x + bound.extents.x;
+//		left = focusAreaObject.transform.position.x - bound.extents.x;
+//		right = focusAreaObject.transform.position.x + bound.extents.x;
 		newRB.velocity = new Vector3(0, newRB.velocity.y, 0);
 	}
 		
@@ -75,8 +94,16 @@ public class focusArea{
 		return right;
 	}
 
+	public void setRight(float newRight){
+		right = newRight;
+	}
+
 	public float getLeft(){
 		return left;
+	}
+
+	public void setLeft(float newLeft){
+		left = newLeft;
 	}
 
 	public float getTop(){
