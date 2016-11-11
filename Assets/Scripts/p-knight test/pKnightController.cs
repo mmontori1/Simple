@@ -18,21 +18,12 @@ public class pKnightController : MonoBehaviour {
 		spriteRender = pKnight.GetComponent<SpriteRenderer>();
 
 		pKnightMovement = new charMovement(70, 150, spriteRender.bounds);
-
-		Debug.Log (spriteRender.bounds);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		movement ();
 		pKnightMovement.setEdges(spriteRender.bounds);
-		if(rb.velocity.x == 0){
-//			Debug.Log(pKnightMovement.getRight());
-		}
-		//		pKnightMovement
-		//		if (zoneEnabled) {
-		//		}
-
 	}
 
 	void movement(){
