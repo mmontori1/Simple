@@ -26,13 +26,6 @@ public class pKnightController : MonoBehaviour {
 	void Update () {
 		movement ();
 		pKnightMovement.setEdges(spriteRender.bounds);
-		if(rb.velocity.x == 0){
-//			Debug.Log(pKnightMovement.getRight());
-		}
-		//		pKnightMovement
-		//		if (zoneEnabled) {
-		//		}
-
 	}
 
 	void movement(){

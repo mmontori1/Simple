@@ -52,23 +52,34 @@ public class focusArea{
 	}
 
 	public void resetHorizontalSpeed(Bounds bounds, Rigidbody2D newRB){
-		left = focusAreaObject.transform.position.x - bound.extents.x;
-		right = focusAreaObject.transform.position.x + bound.extents.x;
+		bound = bounds;
+		left = bound.center.x - bound.extents.x;
+		right = bound.center.x + bound.extents.x;
 		newRB.velocity = new Vector3(0, newRB.velocity.y, 0);
 	}
 		
 	public void setRight(Bounds bounds, float newRight, Rigidbody2D oldRB, Rigidbody2D newRB){
-		bounds = bound;
-		left = focusAreaObject.transform.position.x - bound.extents.x;
-		right = focusAreaObject.transform.position.x + bound.extents.x;
+		bounds.center = new Vector3(newRight - bounds.extents.x, bounds.center.y, bounds.center.z);
+		bound = bounds;
+		left = bound.center.x - bound.extents.x;
+		right = bound.center.x + bound.extents.x;
 		newRB.velocity = new Vector3(oldRB.velocity.x, newRB.velocity.y, 0);
+		Debug.Log (newRight);
+		Debug.Log (newRight - bound.extents.x);
+		Debug.Log (bound);
+//		focusAreaObject.transform.Translate (new Vector3 (newRight - (focusAreaObject.transform.position.x + (focusAreaObject.transform.localScale.x / 2)), 0, 0));
+//		Debug.Log ("player" + oldRB.velocity.x);
+//		Debug.Log ("camera" + newRB.velocity.x);
 	}
 
 	public void setLeft(Bounds bounds, float newLeft, Rigidbody2D oldRB, Rigidbody2D newRB){
-		bounds = bound;
-		left = focusAreaObject.transform.position.x - bound.extents.x;
-		right = focusAreaObject.transform.position.x + bound.extents.x;
+		bounds.center = new Vector3(newLeft + bounds.extents.x, bounds.center.y, bounds.center.z);
+		bound = bounds;
+		left = bound.center.x - bound.extents.x;
+		right = bound.center.x + bound.extents.x;
 		newRB.velocity = new Vector3(oldRB.velocity.x, newRB.velocity.y, 0);
+//		Debug.Log ("player" + oldRB.velocity.x);
+//		Debug.Log ("camera" + newRB.velocity.x);
 	}
 
 	public float getRight(){
