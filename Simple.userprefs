@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/p-knight test/cameraFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/p-knight test/pKnightController.cs">
     <Files>
-      <File FileName="Assets/Scripts/p-knight test/pKnightController.cs" Line="78" Column="38" />
+      <File FileName="Assets/Scripts/p-knight test/pKnightController.cs" Line="20" Column="39" />
+      <File FileName="Assets/Scripts/p-knight test/cameraFollow.cs" Line="43" Column="56" />
       <File FileName="Assets/Scripts/Simple/Player.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/p-knight test/cameraFollow.cs" Line="68" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -17,15 +17,18 @@ public class pKnightController : MonoBehaviour {
 
 		spriteRender = pKnight.GetComponent<SpriteRenderer>();
 
-		pKnightMovement = new charMovement(70, 150, spriteRender.bounds);
+		pKnightMovement = new charMovement(60, 150, spriteRender.bounds);
 
 		Debug.Log (spriteRender.bounds);
 	}
-	
+
+	void FixedUpdate(){
+		pKnightMovement.setEdges(spriteRender.bounds);
+	}
+
 	// Update is called once per frame
 	void Update () {
 		movement ();
-		pKnightMovement.setEdges(spriteRender.bounds);
 	}
 
 	void movement(){
@@ -93,7 +96,4 @@ public class charMovement{
 	public float getBottom(){
 		return bottom;
 	}
-
-//	public float returnEdges(){
-//	}
 }

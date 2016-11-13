@@ -3,6 +3,9 @@ using System.Collections;
 
 public class cameraFollow : MonoBehaviour {
 
+	public Transform pKnightTransform;
+	public float cameraDistance;
+
 	public GameObject focusObject;
 	public Rigidbody2D rb;
 	public Rigidbody2D pKnightRB;
@@ -13,26 +16,31 @@ public class cameraFollow : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		focusObject = this.gameObject;
 		controller = GameObject.Find("Purple Knight").GetComponent<pKnightController>();
 		cameraSpriteRender = focusObject.GetComponent<SpriteRenderer>();
 		cFocusArea = new focusArea (cameraSpriteRender.bounds, focusObject);
 		rb = focusObject.GetComponent<Rigidbody2D>();
 		pKnightRB = controller.GetComponent<Rigidbody2D>();
 	}
+
+	// Use this for initialization
+	void Awake () {
+		cameraDistance = 90f;
+		GetComponent<UnityEngine.Camera>().orthographicSize = cameraDistance;
+	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		pKnightMovement = controller.pKnightMovement;
 		if(pKnightMovement.getRight() > cFocusArea.getRight()){
-			cFocusArea.setRight(cameraSpriteRender.bounds, pKnightMovement.getRight(), pKnightRB, rb);
+			cFocusArea.setRight(cameraSpriteRender.bounds, pKnightMovement.getRight());
+			transform.position = new Vector3 (pKnightTransform.position.x, transform.position.y, transform.position.z);
 		}
-		else if(pKnightMovement.getLeft() < cFocusArea.getLeft()){
-			cFocusArea.setLeft(cameraSpriteRender.bounds, pKnightMovement.getLeft(), pKnightRB, rb);
+		if(pKnightMovement.getLeft() < cFocusArea.getLeft()){
+			cFocusArea.setLeft(cameraSpriteRender.bounds, pKnightMovement.getLeft());
+			transform.position = new Vector3 (pKnightTransform.position.x, transform.position.y, transform.position.z);
 		}
-		else{
-			cFocusArea.resetHorizontalSpeed(cameraSpriteRender.bounds, rb);
-		}
+		//if velocity is 0? also knight moving a bit strange?
 	}
 }
 
@@ -51,35 +59,18 @@ public class focusArea{
 		focusAreaObject = newObject;
 	}
 
-	public void resetHorizontalSpeed(Bounds bounds, Rigidbody2D newRB){
+	public void setRight(Bounds bounds, float newRight){
 		bound = bounds;
-		left = bound.center.x - bound.extents.x;
-		right = bound.center.x + bound.extents.x;
-		newRB.velocity = new Vector3(0, newRB.velocity.y, 0);
-	}
-		
-	public void setRight(Bounds bounds, float newRight, Rigidbody2D oldRB, Rigidbody2D newRB){
-		bounds.center = new Vector3(newRight - bounds.extents.x, bounds.center.y, bounds.center.z);
-		bound = bounds;
-		left = bound.center.x - bound.extents.x;
-		right = bound.center.x + bound.extents.x;
-		newRB.velocity = new Vector3(oldRB.velocity.x, newRB.velocity.y, 0);
-		Debug.Log (newRight);
-		Debug.Log (newRight - bound.extents.x);
-		Debug.Log (bound);
-//		focusAreaObject.transform.Translate (new Vector3 (newRight - (focusAreaObject.transform.position.x + (focusAreaObject.transform.localScale.x / 2)), 0, 0));
-//		Debug.Log ("player" + oldRB.velocity.x);
-//		Debug.Log ("camera" + newRB.velocity.x);
+		left = focusAreaObject.transform.position.x - bound.extents.x;
+		right = focusAreaObject.transform.position.x + bound.extents.x;
+		focusAreaObject.transform.Translate (new Vector3 (newRight - (focusAreaObject.transform.position.x + (focusAreaObject.transform.localScale.x / 2)), 0, 0));
 	}
 
-	public void setLeft(Bounds bounds, float newLeft, Rigidbody2D oldRB, Rigidbody2D newRB){
-		bounds.center = new Vector3(newLeft + bounds.extents.x, bounds.center.y, bounds.center.z);
+	public void setLeft(Bounds bounds, float newLeft){
 		bound = bounds;
-		left = bound.center.x - bound.extents.x;
-		right = bound.center.x + bound.extents.x;
-		newRB.velocity = new Vector3(oldRB.velocity.x, newRB.velocity.y, 0);
-//		Debug.Log ("player" + oldRB.velocity.x);
-//		Debug.Log ("camera" + newRB.velocity.x);
+		left = focusAreaObject.transform.position.x - bound.extents.x;
+		right = focusAreaObject.transform.position.x + bound.extents.x;
+		focusAreaObject.transform.Translate (new Vector3 (newLeft - (focusAreaObject.transform.position.x - (focusAreaObject.transform.localScale.x / 2)), 0, 0));
 	}
 
 	public float getRight(){
