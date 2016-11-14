@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\Simple\enemyDmg.cs" />
      <Compile Include="Assets\Scripts\Simple\redGuyDmg.cs" />
      <Compile Include="Assets\Scripts\p-knight test\cameraFollow.cs" />
+     <Compile Include="Assets\Scripts\p-knight test\cameraSelectiveFollow.cs" />
      <Compile Include="Assets\Scripts\p-knight test\pKnightController.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
