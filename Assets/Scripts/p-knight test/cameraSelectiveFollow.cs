@@ -21,11 +21,19 @@ public class cameraSelectiveFollow : MonoBehaviour {
 
 	void LateUpdate () {
 		focusArea.Update (target.spriteRender.bounds);
-		transform.position = new Vector3 (focusArea.center.x, focusArea.center.y + airHeight, transform.position.z);
+		transform.position = new Vector3 (focusArea.center.x, transform.position.y, transform.position.z);
+
+//		if(focusArea.center.y > 60){
+//			transform.position = new Vector3 (focusArea.center.x, focusArea.center.y + airHeight, transform.position.z);
+//			Debug.Log (target.spriteRender.bounds);
+//		} 
+//		else{
+//			transform.position = new Vector3 (focusArea.center.x, transform.position.y, transform.position.z);
+//		}
 	}
 
 	void OnDrawGizmos(){
-		Gizmos.color = new Color (1, 0, 0, .5f);
+		Gizmos.color = new Color (1, 0, 2, .5f);
 		Gizmos.DrawCube (focusArea.center, focusAreaSize);
 	}
 
