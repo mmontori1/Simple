@@ -3,15 +3,24 @@ using System.Collections;
 
 public class cameraSelectiveFollow : MonoBehaviour {
 
+//	private bool once;
+//	private float b;
+//	private Vector3 ab;
 	public float cameraDistance;
 	public float airHeight;
+//	public float cameraTop;
+//	public float cameraBottom;
 	public pKnightController target;
 	public Vector2 focusAreaSize;
 	FocusArea focusArea;
 
 	void Awake () {
+//		once = false;
 		cameraDistance = 90f;
 		GetComponent<UnityEngine.Camera>().orthographicSize = cameraDistance;
+//		cameraTop = transform.position.y + cameraDistance - 23f;
+//		cameraBottom = transform.position.y - cameraDistance;
+//		Debug.Log (cameraTop);
 	}
 
 	void Start () {
@@ -21,10 +30,33 @@ public class cameraSelectiveFollow : MonoBehaviour {
 
 	void LateUpdate () {
 		focusArea.Update (target.spriteRender.bounds);
-		transform.position = new Vector3 (focusArea.center.x, transform.position.y, transform.position.z);
+		transform.position = new Vector3 (focusArea.center.x, focusArea.center.y + airHeight, transform.position.z);
+//		if (focusArea.center.y < cameraTop) {
+//			transform.position = new Vector3 (focusArea.center.x, transform.position.y, transform.position.z);
+//		}
+//		else{
+//			cameraTop += (2*cameraDistance);
+//			cameraBottom += (2 * cameraDistance);
+//			Debug.Log (2 * cameraDistance);
+//			Debug.Log (transform.position.y);
+//			b = transform.position.y + 2*cameraDistance;
+//			ab = new Vector3 (transform.position.x, b, transform.position.z);
+//			once = true;
+////			float a = transform.position.y;
+////			Debug.Log (b);
+////			transform.position = Vector3.Lerp (transform.position, ab, 0.01f);
+////			Mathf.Lerp (a, b, 0.5f);
+//			Debug.Log (cameraTop);
+//		}
+//		if (once) {
+//			StartCoroutine (transition (1000f));
+//		}
+//		Debug.Log (target.spriteRender.bounds);
 
 //		if(focusArea.center.y > 60){
+//		if (focusArea.center.y > cameraBottom) {
 //			transform.position = new Vector3 (focusArea.center.x, focusArea.center.y + airHeight, transform.position.z);
+//		}
 //			Debug.Log (target.spriteRender.bounds);
 //		} 
 //		else{
@@ -76,4 +108,14 @@ public class cameraSelectiveFollow : MonoBehaviour {
 			velocity = new Vector2 (shiftX, shiftY);
 		}
 	}
+
+//	private IEnumerator transition(float time){
+//		float i = 0.0f;
+//		float rate = 1.0f/time;
+//		while (i < 1.0f) {
+//			i += Time.deltaTime * rate;
+//			transform.position = Vector3.Lerp (transform.position, ab, i);
+//			yield return new WaitForSeconds(i);
+//		}
+//	}
 }
