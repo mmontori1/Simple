@@ -5,7 +5,7 @@
       <File FileName="Assets/Scripts/p-knight test/pKnightController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Simple/Player.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/p-knight test/cameraFollow.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/p-knight test/cameraSelectiveFollow.cs" Line="33" Column="111" />
+      <File FileName="Assets/Scripts/p-knight test/cameraSelectiveFollow.cs" Line="47" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
