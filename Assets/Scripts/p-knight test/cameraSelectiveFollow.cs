@@ -34,31 +34,31 @@ public class cameraSelectiveFollow : MonoBehaviour {
 		if (focusArea.center.y < cameraTop) {
 			transform.position = new Vector3 (focusArea.center.x, transform.position.y, transform.position.z);
 		}
-		else if(focusArea.center.y < cameraBottom){
-			cameraTop -= (2*cameraDistance);
-			cameraBottom -= (2 * cameraDistance);
-			Debug.Log (2 * cameraDistance);
-			Debug.Log (transform.position.y);
-			b = transform.position.y - 2*cameraDistance + airHeight;
-			Debug.Log (b);
-			ab = new Vector3 (transform.position.x, b, transform.position.z);
-			once = true;
-		}
-//		else{
-//			cameraTop += (2*cameraDistance);
-//			cameraBottom += (2 * cameraDistance);
+//		else if(focusArea.center.y < cameraBottom){
+//			cameraTop -= (2*cameraDistance);
+//			cameraBottom -= (2 * cameraDistance);
 //			Debug.Log (2 * cameraDistance);
 //			Debug.Log (transform.position.y);
-//			b = transform.position.y + 2*cameraDistance - airHeight;
+//			b = transform.position.y - 2*cameraDistance + airHeight;
 //			Debug.Log (b);
 //			ab = new Vector3 (transform.position.x, b, transform.position.z);
 //			once = true;
-////			float a = transform.position.y;
-////			Debug.Log (b);
-////			transform.position = Vector3.Lerp (transform.position, ab, 0.01f);
-////			Mathf.Lerp (a, b, 0.5f);
-//			Debug.Log (cameraBottom);
 //		}
+		else{
+			cameraTop += (2*cameraDistance);
+			cameraBottom += (2 * cameraDistance);
+			Debug.Log (2 * cameraDistance);
+			Debug.Log (transform.position.y);
+			b = transform.position.y + 2*cameraDistance - airHeight;
+			Debug.Log (b);
+			ab = new Vector3 (transform.position.x, b, transform.position.z);
+			once = true;
+//			float a = transform.position.y;
+//			Debug.Log (b);
+//			transform.position = Vector3.Lerp (transform.position, ab, 0.01f);
+//			Mathf.Lerp (a, b, 0.5f);
+			Debug.Log (cameraBottom);
+		}
 		if (once) {
 			StartCoroutine (transition (1000f));
 		}
